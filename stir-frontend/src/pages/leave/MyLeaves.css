@@ -1,0 +1,171 @@
+:root {
+  --navy: var(--primary);
+  --navy-dark: var(--primary-dark);
+  --navy-light: #E4E8FA;
+  --green: var(--success);
+  --red: var(--accent);
+  --amber: var(--warning);
+  --text-muted: var(--text-light);
+  --border: var(--border);
+}
+
+.my-leaves-page {
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--navy-light) 0%, #ffffff 260px);
+    padding: 48px 32px 80px;
+}
+
+.my-leaves-header {
+    max-width: 900px;
+    margin: 0 auto 28px;
+}
+
+.my-leaves-header .eyebrow {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--green);
+    display: block;
+    margin-bottom: 6px;
+}
+
+.my-leaves-header h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--navy);
+    margin: 0 0 8px;
+}
+
+.my-leaves-header p {
+    color: var(--text-muted);
+    font-size: 15px;
+}
+
+.my-leaves-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(20, 30, 70, 0.05);
+}
+
+.leaves-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaves-table thead {
+    background: var(--navy-light);
+}
+
+.leaves-table th {
+    text-align: left;
+    padding: 14px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--navy);
+    font-weight: 700;
+}
+
+.leaves-table td {
+    padding: 16px 20px;
+    font-size: 14px;
+    color: #374151;
+    border-top: 1px solid var(--border);
+}
+
+.leaves-table tbody tr {
+    transition: background 0.15s ease;
+}
+
+.leaves-table tbody tr:hover {
+    background: #fafbff;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 700;
+}
+
+.status-badge.pending {
+    background: var(--warning-bg);
+    color: var(--amber);
+}
+
+.status-badge.validated {
+    background: var(--success-bg);
+    color: #106339;
+}
+
+.status-badge.refused {
+    background: var(--danger-bg);
+    color: var(--red);
+}
+
+.state-message {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+    font-size: 14.5px;
+}
+
+.state-message .icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--navy);
+    text-decoration: none;
+    margin-bottom: 18px;
+    transition: gap 0.15s ease, color 0.15s ease;
+}
+
+.back-link:hover {
+    gap: 10px;
+    color: var(--navy-dark);
+}
+
+.comment-refused {
+    color: var(--red);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.comment-normal {
+    color: var(--navy);
+    font-size: 13px;
+}
+
+.comment-empty {
+    color: #d1d5db;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .leaves-table th:nth-child(3),
+    .leaves-table td:nth-child(3) {
+        display: none;
+    }
+    .leaves-table th:nth-child(5),
+    .leaves-table td:nth-child(5) {
+        display: none;
+    }
+}
+
+.state-icon {
+  color: var(--text-light);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+.rh-stats-page { max-width: 900px; }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-icon-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+.stat-icon-badge.neutral { background: #E4E8FA; color: var(--primary); }
+.stat-icon-badge.warning { background: var(--warning-bg); color: var(--warning); }
+.stat-icon-badge.success { background: var(--success-bg); color: var(--success); }
+.stat-icon-badge.danger { background: var(--danger-bg); color: var(--accent); }
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text);
+  font-family: var(--font-mono);
+}
+.stat-label {
+  font-size: 13px;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.stat-card.en-attente .stat-value { color: var(--warning); }
+.stat-card.acceptee .stat-value { color: var(--success); }
+.stat-card.refusee .stat-value { color: var(--accent); }

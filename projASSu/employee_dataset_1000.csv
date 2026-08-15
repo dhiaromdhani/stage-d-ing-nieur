@@ -1,0 +1,1001 @@
+id,firstName,lastName,jobTitle,skills,profile
+1.0,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+2.0,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+3.0,Yasmine,Haddad,DevOps Engineer,"MongoDB, REST APIs, TypeScript, Machine Learning, HTML, Angular, CI/CD",DevOps Engineer MongoDB REST APIs TypeScript Machine Learning HTML Angular CI/CD
+4.0,Rim,Ayadi,Full Stack Developer,"Python, CSS, Linux, React, Node.js",Full Stack Developer Python CSS Linux React Node.js
+5.0,Sara,Kacem,Full Stack Developer,"HTML, Docker, Node.js, Linux, CI/CD, Angular",Full Stack Developer HTML Docker Node.js Linux CI/CD Angular
+6.0,Yassine,Ben Salah,Full Stack Developer,"REST APIs, Angular, JavaScript, HTML, MongoDB, Python",Full Stack Developer REST APIs Angular JavaScript HTML MongoDB Python
+7.0,Yasmine,Gharbi,DevOps Engineer,"Python, Machine Learning, NLP, Angular, React",DevOps Engineer Python Machine Learning NLP Angular React
+8.0,Ines,Ayadi,DevOps Engineer,"JavaScript, Angular, CSS, React, NLP, CI/CD",DevOps Engineer JavaScript Angular CSS React NLP CI/CD
+9.0,Omar,Ayadi,Backend Developer,"CI/CD, TypeScript, Docker, JavaScript, NLP, SQL",Backend Developer CI/CD TypeScript Docker JavaScript NLP SQL
+10.0,Amira,Haddad,Backend Developer,"Angular, MongoDB, AWS, CI/CD, NLP, SQL, Data Analysis",Backend Developer Angular MongoDB AWS CI/CD NLP SQL Data Analysis
+11.0,Omar,Masmoudi,Frontend Developer,"Express, REST APIs, MongoDB, CI/CD, Python, JavaScript, Data Analysis",Frontend Developer Express REST APIs MongoDB CI/CD Python JavaScript Data Analysis
+12.0,Nour,Jouini,Backend Developer,"CI/CD, Linux, SQL, Docker, Angular, CSS",Backend Developer CI/CD Linux SQL Docker Angular CSS
+13.0,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+14.0,Nour,Masmoudi,DevOps Engineer,"TypeScript, JavaScript, Express, Machine Learning, Docker, SQL",DevOps Engineer TypeScript JavaScript Express Machine Learning Docker SQL
+15.0,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+16.0,Yasmine,Kacem,Full Stack Developer,"React, CI/CD, NLP, TypeScript, AWS, CSS",Full Stack Developer React CI/CD NLP TypeScript AWS CSS
+17.0,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+18.0,Sami,Kacem,DevOps Engineer,"Express, Data Analysis, Python, Node.js, AWS, Docker",DevOps Engineer Express Data Analysis Python Node.js AWS Docker
+19.0,Ali,Ayadi,Data Scientist,"JavaScript, MongoDB, AWS, Angular, CI/CD",Data Scientist JavaScript MongoDB AWS Angular CI/CD
+20.0,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+21.0,Nour,Jouini,Data Scientist,"SQL, Angular, React, Docker, Linux, MongoDB",Data Scientist SQL Angular React Docker Linux MongoDB
+22.0,Anis,Trabelsi,Backend Developer,"REST APIs, Docker, AWS, MongoDB, Python",Backend Developer REST APIs Docker AWS MongoDB Python
+23.0,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+24.0,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+25.0,Mohamed,Trabelsi,Full Stack Developer,"JavaScript, Angular, REST APIs, CSS, Docker",Full Stack Developer JavaScript Angular REST APIs CSS Docker
+26.0,Asma,Trabelsi,DevOps Engineer,"SQL, AWS, Python, React",DevOps Engineer SQL AWS Python React
+27.0,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+28.0,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+29.0,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+30.0,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+31.0,Rim,Jouini,Backend Developer,"MongoDB, AWS, Angular, Python, Machine Learning, NLP, CI/CD",Backend Developer MongoDB AWS Angular Python Machine Learning NLP CI/CD
+32.0,Sami,Masmoudi,Full Stack Developer,"REST APIs, Node.js, Python, JavaScript, MongoDB, Angular",Full Stack Developer REST APIs Node.js Python JavaScript MongoDB Angular
+33.0,Asma,Masmoudi,Data Scientist,"Express, SQL, Docker, JavaScript, Node.js, AWS, Linux",Data Scientist Express SQL Docker JavaScript Node.js AWS Linux
+34.0,Rim,Masmoudi,Data Scientist,"CSS, Linux, MongoDB, Docker, REST APIs, Node.js",Data Scientist CSS Linux MongoDB Docker REST APIs Node.js
+35.0,Ines,Ayadi,DevOps Engineer,"AWS, Data Analysis, React, REST APIs",DevOps Engineer AWS Data Analysis React REST APIs
+36.0,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+37.0,Amira,Mejri,Data Scientist,"SQL, Linux, MongoDB, Angular, Node.js",Data Scientist SQL Linux MongoDB Angular Node.js
+38.0,Yassine,Bouazizi,Full Stack Developer,"NLP, Node.js, HTML, Docker, Python, SQL, JavaScript",Full Stack Developer NLP Node.js HTML Docker Python SQL JavaScript
+39.0,Lina,Masmoudi,DevOps Engineer,"MongoDB, Docker, CSS, Data Analysis, HTML, Express",DevOps Engineer MongoDB Docker CSS Data Analysis HTML Express
+40.0,Nour,Ayadi,Data Scientist,"Node.js, JavaScript, Docker, REST APIs, NLP, Angular, CSS",Data Scientist Node.js JavaScript Docker REST APIs NLP Angular CSS
+41.0,Rim,Bouazizi,Full Stack Developer,"Data Analysis, Express, AWS, HTML, JavaScript",Full Stack Developer Data Analysis Express AWS HTML JavaScript
+42.0,Ali,Ben Salah,Data Scientist,"Linux, NLP, Python, MongoDB, JavaScript, REST APIs, AWS",Data Scientist Linux NLP Python MongoDB JavaScript REST APIs AWS
+43.0,Ali,Gharbi,Data Scientist,"SQL, AWS, REST APIs, Linux, Docker, React",Data Scientist SQL AWS REST APIs Linux Docker React
+44.0,Ahmed,Trabelsi,DevOps Engineer,"Angular, CSS, Python, Express, Data Analysis, REST APIs",DevOps Engineer Angular CSS Python Express Data Analysis REST APIs
+45.0,Lina,Trabelsi,Backend Developer,"SQL, React, REST APIs, CI/CD, Express",Backend Developer SQL React REST APIs CI/CD Express
+46.0,Meriem,Bouazizi,Backend Developer,"Linux, Node.js, REST APIs, Machine Learning, Python, AWS",Backend Developer Linux Node.js REST APIs Machine Learning Python AWS
+47.0,Ali,Bouazizi,DevOps Engineer,"CSS, Docker, MongoDB, NLP, Python, Linux",DevOps Engineer CSS Docker MongoDB NLP Python Linux
+48.0,Yasmine,Trabelsi,Data Scientist,"CI/CD, MongoDB, Python, Docker, AWS, SQL",Data Scientist CI/CD MongoDB Python Docker AWS SQL
+49.0,Sami,Ben Salah,Backend Developer,"Data Analysis, React, HTML, NLP, CI/CD, Angular, SQL",Backend Developer Data Analysis React HTML NLP CI/CD Angular SQL
+50.0,Lina,Haddad,DevOps Engineer,"Python, TypeScript, MongoDB, JavaScript",DevOps Engineer Python TypeScript MongoDB JavaScript
+51.0,Nour,Ben Salah,Data Scientist,"Data Analysis, SQL, React, TypeScript",Data Scientist Data Analysis SQL React TypeScript
+52.0,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+53.0,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+54.0,Ahmed,Jouini,Data Scientist,"AWS, Data Analysis, JavaScript, Node.js, Docker, REST APIs, HTML",Data Scientist AWS Data Analysis JavaScript Node.js Docker REST APIs HTML
+55.0,Asma,Ayadi,Full Stack Developer,"Data Analysis, React, JavaScript, MongoDB, CI/CD, Linux",Full Stack Developer Data Analysis React JavaScript MongoDB CI/CD Linux
+56.0,Amira,Mejri,DevOps Engineer,"Node.js, Python, Linux, Machine Learning, Express, HTML, Docker",DevOps Engineer Node.js Python Linux Machine Learning Express HTML Docker
+57.0,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+58.0,Yassine,Jouini,Frontend Developer,"Machine Learning, Linux, CI/CD, MongoDB, React, REST APIs",Frontend Developer Machine Learning Linux CI/CD MongoDB React REST APIs
+59.0,Nour,Gharbi,Backend Developer,"CI/CD, NLP, TypeScript, Machine Learning",Backend Developer CI/CD NLP TypeScript Machine Learning
+60.0,Anis,Kacem,Data Scientist,"SQL, CI/CD, HTML, JavaScript, CSS, REST APIs, TypeScript",Data Scientist SQL CI/CD HTML JavaScript CSS REST APIs TypeScript
+61.0,Sami,Haddad,Data Scientist,"Express, CI/CD, Angular, Linux, MongoDB, React",Data Scientist Express CI/CD Angular Linux MongoDB React
+62.0,Yasmine,Ayadi,Frontend Developer,"HTML, Angular, CI/CD, Express",Frontend Developer HTML Angular CI/CD Express
+63.0,Mohamed,Trabelsi,Full Stack Developer,"MongoDB, SQL, Machine Learning, Data Analysis, Angular",Full Stack Developer MongoDB SQL Machine Learning Data Analysis Angular
+64.0,Amira,Trabelsi,Full Stack Developer,"MongoDB, Python, Machine Learning, HTML, AWS, Docker, TypeScript",Full Stack Developer MongoDB Python Machine Learning HTML AWS Docker TypeScript
+65.0,Karim,Kacem,Frontend Developer,"REST APIs, Docker, Machine Learning, Node.js, TypeScript, React, HTML",Frontend Developer REST APIs Docker Machine Learning Node.js TypeScript React HTML
+66.0,Ines,Masmoudi,Frontend Developer,"SQL, Python, Data Analysis, MongoDB, REST APIs, HTML, AWS",Frontend Developer SQL Python Data Analysis MongoDB REST APIs HTML AWS
+67.0,Asma,Masmoudi,Backend Developer,"HTML, AWS, Docker, Node.js",Backend Developer HTML AWS Docker Node.js
+68.0,Omar,Jouini,Data Scientist,"Data Analysis, React, HTML, SQL",Data Scientist Data Analysis React HTML SQL
+69.0,Karim,Bouazizi,Backend Developer,"Node.js, REST APIs, Machine Learning, JavaScript, Linux, HTML, TypeScript",Backend Developer Node.js REST APIs Machine Learning JavaScript Linux HTML TypeScript
+70.0,Rim,Ayadi,Frontend Developer,"TypeScript, Linux, Node.js, NLP",Frontend Developer TypeScript Linux Node.js NLP
+71.0,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+72.0,Omar,Haddad,Data Scientist,"Express, Data Analysis, Node.js, HTML, SQL",Data Scientist Express Data Analysis Node.js HTML SQL
+73.0,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+74.0,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+75.0,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+76.0,Ali,Haddad,Full Stack Developer,"MongoDB, React, AWS, JavaScript",Full Stack Developer MongoDB React AWS JavaScript
+77.0,Rim,Kacem,Full Stack Developer,"HTML, Linux, REST APIs, Machine Learning, Express, Angular",Full Stack Developer HTML Linux REST APIs Machine Learning Express Angular
+78.0,Rim,Masmoudi,Data Scientist,"Python, Node.js, React, CI/CD",Data Scientist Python Node.js React CI/CD
+79.0,Anis,Kacem,Frontend Developer,"Linux, JavaScript, Data Analysis, MongoDB",Frontend Developer Linux JavaScript Data Analysis MongoDB
+80.0,Lina,Masmoudi,Data Scientist,"CI/CD, NLP, React, MongoDB, JavaScript",Data Scientist CI/CD NLP React MongoDB JavaScript
+81.0,Sami,Ben Salah,Backend Developer,"React, TypeScript, MongoDB, REST APIs, Docker, AWS, NLP",Backend Developer React TypeScript MongoDB REST APIs Docker AWS NLP
+82.0,Ali,Ayadi,Data Scientist,"CSS, Data Analysis, Python, MongoDB",Data Scientist CSS Data Analysis Python MongoDB
+83.0,Nour,Ben Salah,Backend Developer,"Express, Angular, HTML, SQL, Docker, NLP",Backend Developer Express Angular HTML SQL Docker NLP
+84.0,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+85.0,Karim,Ben Salah,Frontend Developer,"Node.js, CSS, TypeScript, MongoDB, NLP, CI/CD, React",Frontend Developer Node.js CSS TypeScript MongoDB NLP CI/CD React
+86.0,Yasmine,Haddad,Backend Developer,"MongoDB, Python, AWS, Machine Learning, Express",Backend Developer MongoDB Python AWS Machine Learning Express
+87.0,Lina,Ayadi,Full Stack Developer,"CSS, REST APIs, MongoDB, CI/CD, JavaScript",Full Stack Developer CSS REST APIs MongoDB CI/CD JavaScript
+88.0,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+89.0,Houssem,Trabelsi,Frontend Developer,"Linux, NLP, Express, SQL, CI/CD, REST APIs, Data Analysis",Frontend Developer Linux NLP Express SQL CI/CD REST APIs Data Analysis
+90.0,Wael,Ben Salah,Data Scientist,"NLP, Machine Learning, Express, TypeScript",Data Scientist NLP Machine Learning Express TypeScript
+91.0,Ines,Gharbi,Frontend Developer,"JavaScript, CSS, NLP, Node.js",Frontend Developer JavaScript CSS NLP Node.js
+92.0,Sami,Masmoudi,Frontend Developer,"TypeScript, Docker, MongoDB, HTML, CI/CD, Data Analysis",Frontend Developer TypeScript Docker MongoDB HTML CI/CD Data Analysis
+93.0,Anis,Masmoudi,DevOps Engineer,"HTML, CI/CD, TypeScript, Linux, MongoDB",DevOps Engineer HTML CI/CD TypeScript Linux MongoDB
+94.0,Ali,Masmoudi,Backend Developer,"AWS, React, MongoDB, SQL, Data Analysis, NLP, JavaScript",Backend Developer AWS React MongoDB SQL Data Analysis NLP JavaScript
+95.0,Yasmine,Ayadi,DevOps Engineer,"NLP, MongoDB, CSS, Express, Node.js, AWS, REST APIs",DevOps Engineer NLP MongoDB CSS Express Node.js AWS REST APIs
+96.0,Omar,Haddad,Frontend Developer,"HTML, CSS, MongoDB, Machine Learning, AWS",Frontend Developer HTML CSS MongoDB Machine Learning AWS
+97.0,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+98.0,Asma,Jouini,Frontend Developer,"SQL, Python, CSS, AWS",Frontend Developer SQL Python CSS AWS
+99.0,Mohamed,Trabelsi,DevOps Engineer,"AWS, TypeScript, Node.js, React, Express",DevOps Engineer AWS TypeScript Node.js React Express
+100.0,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+101.0,Rim,Ayadi,DevOps Engineer,"NLP, Linux, Docker, MongoDB, HTML, Express",DevOps Engineer NLP Linux Docker MongoDB HTML Express
+102.0,Meriem,Jouini,Data Scientist,"TypeScript, AWS, Express, REST APIs",Data Scientist TypeScript AWS Express REST APIs
+103.0,Amira,Haddad,Full Stack Developer,"REST APIs, JavaScript, Data Analysis, SQL, Linux",Full Stack Developer REST APIs JavaScript Data Analysis SQL Linux
+104.0,Karim,Mejri,Backend Developer,"Linux, Node.js, React, TypeScript, CI/CD",Backend Developer Linux Node.js React TypeScript CI/CD
+105.0,Ahmed,Kacem,Data Scientist,"CSS, React, REST APIs, Python, Data Analysis, Angular, Linux",Data Scientist CSS React REST APIs Python Data Analysis Angular Linux
+106.0,Meriem,Bouazizi,Data Scientist,"HTML, React, Docker, CI/CD, SQL, Machine Learning, MongoDB",Data Scientist HTML React Docker CI/CD SQL Machine Learning MongoDB
+107.0,Sara,Kacem,Frontend Developer,"Node.js, SQL, JavaScript, React",Frontend Developer Node.js SQL JavaScript React
+108.0,Sami,Mejri,Backend Developer,"CI/CD, NLP, Machine Learning, Python, Node.js, SQL",Backend Developer CI/CD NLP Machine Learning Python Node.js SQL
+109.0,Ahmed,Kacem,Data Scientist,"Docker, Node.js, Python, Machine Learning, TypeScript, Data Analysis",Data Scientist Docker Node.js Python Machine Learning TypeScript Data Analysis
+110.0,Houssem,Mejri,Frontend Developer,"Angular, TypeScript, React, Linux",Frontend Developer Angular TypeScript React Linux
+111.0,Karim,Haddad,Data Scientist,"Linux, NLP, Docker, TypeScript, CI/CD, HTML",Data Scientist Linux NLP Docker TypeScript CI/CD HTML
+112.0,Asma,Gharbi,Frontend Developer,"JavaScript, NLP, SQL, AWS, Docker",Frontend Developer JavaScript NLP SQL AWS Docker
+113.0,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+114.0,Wael,Haddad,DevOps Engineer,"Linux, Node.js, CSS, MongoDB",DevOps Engineer Linux Node.js CSS MongoDB
+115.0,Karim,Masmoudi,Frontend Developer,"JavaScript, Data Analysis, CI/CD, Linux",Frontend Developer JavaScript Data Analysis CI/CD Linux
+116.0,Yasmine,Bouazizi,DevOps Engineer,"HTML, Docker, NLP, SQL",DevOps Engineer HTML Docker NLP SQL
+117.0,Omar,Ayadi,DevOps Engineer,"TypeScript, Angular, Docker, HTML, JavaScript, Linux, NLP",DevOps Engineer TypeScript Angular Docker HTML JavaScript Linux NLP
+118.0,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+119.0,Nour,Ben Salah,Full Stack Developer,"JavaScript, Node.js, SQL, Machine Learning, AWS",Full Stack Developer JavaScript Node.js SQL Machine Learning AWS
+120.0,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+121.0,Yasmine,Haddad,DevOps Engineer,"TypeScript, Angular, React, NLP, MongoDB",DevOps Engineer TypeScript Angular React NLP MongoDB
+122.0,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+123.0,Houssem,Bouazizi,Frontend Developer,"MongoDB, Node.js, Express, TypeScript, REST APIs",Frontend Developer MongoDB Node.js Express TypeScript REST APIs
+124.0,Omar,Ben Salah,DevOps Engineer,"Data Analysis, Python, CSS, Angular, REST APIs",DevOps Engineer Data Analysis Python CSS Angular REST APIs
+125.0,Ahmed,Haddad,Full Stack Developer,"Node.js, JavaScript, SQL, Machine Learning, AWS, CSS",Full Stack Developer Node.js JavaScript SQL Machine Learning AWS CSS
+126.0,Sara,Jouini,Data Scientist,"Angular, Data Analysis, REST APIs, JavaScript",Data Scientist Angular Data Analysis REST APIs JavaScript
+127.0,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+128.0,Anis,Haddad,Backend Developer,"Node.js, SQL, AWS, JavaScript",Backend Developer Node.js SQL AWS JavaScript
+129.0,Amira,Haddad,Frontend Developer,"Angular, CSS, CI/CD, Data Analysis, REST APIs",Frontend Developer Angular CSS CI/CD Data Analysis REST APIs
+130.0,Houssem,Ayadi,DevOps Engineer,"TypeScript, SQL, Machine Learning, React, CI/CD, Linux",DevOps Engineer TypeScript SQL Machine Learning React CI/CD Linux
+131.0,Karim,Gharbi,Full Stack Developer,"CSS, Python, Data Analysis, Linux, REST APIs",Full Stack Developer CSS Python Data Analysis Linux REST APIs
+132.0,Ines,Trabelsi,Frontend Developer,"Machine Learning, Data Analysis, REST APIs, NLP, TypeScript, Docker, JavaScript",Frontend Developer Machine Learning Data Analysis REST APIs NLP TypeScript Docker JavaScript
+133.0,Wael,Bouazizi,Full Stack Developer,"REST APIs, HTML, Linux, Node.js, Docker, SQL, CI/CD",Full Stack Developer REST APIs HTML Linux Node.js Docker SQL CI/CD
+134.0,Asma,Kacem,Full Stack Developer,"JavaScript, TypeScript, Machine Learning, NLP, HTML",Full Stack Developer JavaScript TypeScript Machine Learning NLP HTML
+135.0,Meriem,Masmoudi,Full Stack Developer,"MongoDB, Docker, SQL, HTML",Full Stack Developer MongoDB Docker SQL HTML
+136.0,Yasmine,Ayadi,Backend Developer,"HTML, CI/CD, Express, AWS, Python",Backend Developer HTML CI/CD Express AWS Python
+137.0,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+138.0,Karim,Ayadi,Frontend Developer,"Node.js, AWS, React, MongoDB, CI/CD, Angular",Frontend Developer Node.js AWS React MongoDB CI/CD Angular
+139.0,Sami,Kacem,Frontend Developer,"NLP, CI/CD, SQL, Docker",Frontend Developer NLP CI/CD SQL Docker
+140.0,Anis,Gharbi,Backend Developer,"Python, Angular, Machine Learning, Data Analysis, Docker, AWS, React",Backend Developer Python Angular Machine Learning Data Analysis Docker AWS React
+141.0,Mohamed,Bouazizi,DevOps Engineer,"NLP, Python, HTML, Linux",DevOps Engineer NLP Python HTML Linux
+142.0,Ikram,Kacem,DevOps Engineer,"React, SQL, MongoDB, Python",DevOps Engineer React SQL MongoDB Python
+143.0,Karim,Bouazizi,Full Stack Developer,"REST APIs, AWS, JavaScript, Data Analysis",Full Stack Developer REST APIs AWS JavaScript Data Analysis
+144.0,Wael,Gharbi,Full Stack Developer,"JavaScript, TypeScript, Linux, HTML, NLP",Full Stack Developer JavaScript TypeScript Linux HTML NLP
+145.0,Ahmed,Gharbi,Frontend Developer,"HTML, REST APIs, SQL, JavaScript, Angular",Frontend Developer HTML REST APIs SQL JavaScript Angular
+146.0,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+147.0,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+148.0,Ali,Gharbi,Backend Developer,"REST APIs, Angular, Docker, CSS, MongoDB, SQL, Python",Backend Developer REST APIs Angular Docker CSS MongoDB SQL Python
+149.0,Yasmine,Bouazizi,Backend Developer,"Docker, Linux, HTML, JavaScript, CSS, Express",Backend Developer Docker Linux HTML JavaScript CSS Express
+150.0,Mohamed,Ayadi,DevOps Engineer,"Python, HTML, REST APIs, Angular, JavaScript, React, MongoDB",DevOps Engineer Python HTML REST APIs Angular JavaScript React MongoDB
+151.0,Yasmine,Ben Salah,Full Stack Developer,"AWS, REST APIs, TypeScript, CSS, Data Analysis, SQL",Full Stack Developer AWS REST APIs TypeScript CSS Data Analysis SQL
+152.0,Karim,Haddad,Data Scientist,"Python, CSS, NLP, HTML, Linux, TypeScript, AWS",Data Scientist Python CSS NLP HTML Linux TypeScript AWS
+153.0,Sami,Ben Salah,Full Stack Developer,"Data Analysis, Linux, JavaScript, CSS",Full Stack Developer Data Analysis Linux JavaScript CSS
+154.0,Omar,Ben Salah,Data Scientist,"NLP, Linux, React, MongoDB",Data Scientist NLP Linux React MongoDB
+155.0,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+156.0,Ikram,Mejri,Backend Developer,"JavaScript, Machine Learning, AWS, Angular",Backend Developer JavaScript Machine Learning AWS Angular
+157.0,Karim,Kacem,Full Stack Developer,"MongoDB, Express, NLP, HTML, TypeScript",Full Stack Developer MongoDB Express NLP HTML TypeScript
+158.0,Karim,Ayadi,Frontend Developer,"Data Analysis, MongoDB, Machine Learning, TypeScript, JavaScript, REST APIs",Frontend Developer Data Analysis MongoDB Machine Learning TypeScript JavaScript REST APIs
+159.0,Rim,Gharbi,Frontend Developer,"AWS, Docker, Machine Learning, Linux, Node.js",Frontend Developer AWS Docker Machine Learning Linux Node.js
+160.0,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+161.0,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+162.0,Nour,Trabelsi,Backend Developer,"NLP, Express, Machine Learning, MongoDB",Backend Developer NLP Express Machine Learning MongoDB
+163.0,Sara,Bouazizi,Data Scientist,"Docker, Linux, React, CI/CD, TypeScript, JavaScript",Data Scientist Docker Linux React CI/CD TypeScript JavaScript
+164.0,Sami,Mejri,DevOps Engineer,"Express, Node.js, CI/CD, Docker",DevOps Engineer Express Node.js CI/CD Docker
+165.0,Meriem,Masmoudi,Data Scientist,"Docker, Express, AWS, CSS, TypeScript",Data Scientist Docker Express AWS CSS TypeScript
+166.0,Ahmed,Mejri,DevOps Engineer,"AWS, TypeScript, Linux, JavaScript, REST APIs, Data Analysis",DevOps Engineer AWS TypeScript Linux JavaScript REST APIs Data Analysis
+167.0,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+168.0,Yasmine,Ayadi,Backend Developer,"Machine Learning, Express, MongoDB, SQL",Backend Developer Machine Learning Express MongoDB SQL
+169.0,Wael,Trabelsi,Backend Developer,"HTML, CSS, Angular, Node.js, SQL, Machine Learning",Backend Developer HTML CSS Angular Node.js SQL Machine Learning
+170.0,Nour,Masmoudi,Data Scientist,"Machine Learning, Python, MongoDB, Docker, JavaScript, AWS",Data Scientist Machine Learning Python MongoDB Docker JavaScript AWS
+171.0,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+172.0,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+173.0,Nour,Jouini,Full Stack Developer,"Angular, SQL, JavaScript, Machine Learning, React, CI/CD",Full Stack Developer Angular SQL JavaScript Machine Learning React CI/CD
+174.0,Nour,Ayadi,Backend Developer,"Angular, NLP, React, JavaScript, Python",Backend Developer Angular NLP React JavaScript Python
+175.0,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+176.0,Nour,Masmoudi,Backend Developer,"SQL, NLP, React, AWS",Backend Developer SQL NLP React AWS
+177.0,Yasmine,Jouini,Full Stack Developer,"Angular, Data Analysis, HTML, SQL, Node.js, MongoDB, CSS",Full Stack Developer Angular Data Analysis HTML SQL Node.js MongoDB CSS
+178.0,Karim,Gharbi,Data Scientist,"CI/CD, AWS, Linux, React",Data Scientist CI/CD AWS Linux React
+179.0,Meriem,Mejri,Data Scientist,"Linux, Python, HTML, CI/CD, Data Analysis, Angular, AWS",Data Scientist Linux Python HTML CI/CD Data Analysis Angular AWS
+180.0,Lina,Ben Salah,Data Scientist,"TypeScript, Angular, CI/CD, Node.js, JavaScript",Data Scientist TypeScript Angular CI/CD Node.js JavaScript
+181.0,Mohamed,Masmoudi,Frontend Developer,"CI/CD, AWS, Angular, REST APIs, SQL, Python",Frontend Developer CI/CD AWS Angular REST APIs SQL Python
+182.0,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+183.0,Sami,Haddad,Full Stack Developer,"AWS, Python, HTML, TypeScript, Machine Learning",Full Stack Developer AWS Python HTML TypeScript Machine Learning
+184.0,Omar,Mejri,Backend Developer,"Machine Learning, SQL, HTML, AWS, NLP, MongoDB",Backend Developer Machine Learning SQL HTML AWS NLP MongoDB
+185.0,Karim,Ayadi,Frontend Developer,"Data Analysis, TypeScript, Express, AWS, SQL",Frontend Developer Data Analysis TypeScript Express AWS SQL
+186.0,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+187.0,Wael,Ayadi,Data Scientist,"Node.js, HTML, NLP, Docker, AWS",Data Scientist Node.js HTML NLP Docker AWS
+188.0,Ikram,Trabelsi,Full Stack Developer,"JavaScript, TypeScript, NLP, Linux, AWS, CI/CD, Node.js",Full Stack Developer JavaScript TypeScript NLP Linux AWS CI/CD Node.js
+189.0,Yasmine,Gharbi,Backend Developer,"HTML, AWS, React, TypeScript",Backend Developer HTML AWS React TypeScript
+190.0,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+191.0,Sami,Jouini,Backend Developer,"Angular, Data Analysis, CSS, JavaScript, SQL, Express",Backend Developer Angular Data Analysis CSS JavaScript SQL Express
+192.0,Ikram,Trabelsi,DevOps Engineer,"SQL, CSS, Data Analysis, React, MongoDB, Docker, JavaScript",DevOps Engineer SQL CSS Data Analysis React MongoDB Docker JavaScript
+193.0,Sara,Ben Salah,Frontend Developer,"CSS, REST APIs, Python, SQL, TypeScript, Angular, Express",Frontend Developer CSS REST APIs Python SQL TypeScript Angular Express
+194.0,Anis,Ben Salah,DevOps Engineer,"Docker, AWS, Data Analysis, Angular, Machine Learning, REST APIs",DevOps Engineer Docker AWS Data Analysis Angular Machine Learning REST APIs
+195.0,Mohamed,Mejri,DevOps Engineer,"Linux, Angular, NLP, Python, React, JavaScript, Express",DevOps Engineer Linux Angular NLP Python React JavaScript Express
+196.0,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript
+197.0,Ali,Masmoudi,DevOps Engineer,"SQL, TypeScript, Data Analysis, CSS, NLP, Linux",DevOps Engineer SQL TypeScript Data Analysis CSS NLP Linux
+198.0,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+199.0,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+200.0,Yassine,Trabelsi,Frontend Developer,"AWS, HTML, Data Analysis, TypeScript, SQL, CI/CD, Angular",Frontend Developer AWS HTML Data Analysis TypeScript SQL CI/CD Angular
+183.23626669314916,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+41.57723569026112,Lina,Masmoudi,DevOps Engineer,"MongoDB, Docker, CSS, Data Analysis, HTML, Express",DevOps Engineer MongoDB Docker CSS Data Analysis HTML Express
+44.21561050034883,Rim,Bouazizi,Full Stack Developer,"Data Analysis, Express, AWS, HTML, JavaScript",Full Stack Developer Data Analysis Express AWS HTML JavaScript
+172.87123680799974,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+144.08121969804324,Ali,Gharbi,Backend Developer,"REST APIs, Angular, Docker, CSS, MongoDB, SQL, Python",Backend Developer REST APIs Angular Docker CSS MongoDB SQL Python
+49.602206191933384,Lina,Haddad,DevOps Engineer,"Python, TypeScript, MongoDB, JavaScript",DevOps Engineer Python TypeScript MongoDB JavaScript
+187.13758785184456,Mohamed,Masmoudi,Frontend Developer,"CI/CD, AWS, Angular, REST APIs, SQL, Python",Frontend Developer CI/CD AWS Angular REST APIs SQL Python
+113.4226893733797,Omar,Ayadi,DevOps Engineer,"TypeScript, Angular, Docker, HTML, JavaScript, Linux, NLP",DevOps Engineer TypeScript Angular Docker HTML JavaScript Linux NLP
+124.2624362036996,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+124.52457017077982,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+43.163466733780034,Lina,Masmoudi,DevOps Engineer,"MongoDB, Docker, CSS, Data Analysis, HTML, Express",DevOps Engineer MongoDB Docker CSS Data Analysis HTML Express
+21.997932150967976,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+43.88115749998582,Nour,Ayadi,Data Scientist,"Node.js, JavaScript, Docker, REST APIs, NLP, Angular, CSS",Data Scientist Node.js JavaScript Docker REST APIs NLP Angular CSS
+95.00476223125762,Yasmine,Ayadi,DevOps Engineer,"NLP, MongoDB, CSS, Express, Node.js, AWS, REST APIs",DevOps Engineer NLP MongoDB CSS Express Node.js AWS REST APIs
+32.83679165535066,Rim,Masmoudi,Data Scientist,"CSS, Linux, MongoDB, Docker, REST APIs, Node.js",Data Scientist CSS Linux MongoDB Docker REST APIs Node.js
+2.9371182773612854,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+23.79420803613599,Rim,Jouini,Backend Developer,"MongoDB, AWS, Angular, Python, Machine Learning, NLP, CI/CD",Backend Developer MongoDB AWS Angular Python Machine Learning NLP CI/CD
+28.796812531528484,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+16.22214951606475,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+103.57671693534567,Amira,Haddad,Full Stack Developer,"REST APIs, JavaScript, Data Analysis, SQL, Linux",Full Stack Developer REST APIs JavaScript Data Analysis SQL Linux
+24.6353288977543,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+72.67218176008548,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+0.31987515923663734,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+101.77568901940002,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+41.66348886464931,Nour,Ayadi,Data Scientist,"Node.js, JavaScript, Docker, REST APIs, NLP, Angular, CSS",Data Scientist Node.js JavaScript Docker REST APIs NLP Angular CSS
+25.750691620669755,Asma,Trabelsi,DevOps Engineer,"SQL, AWS, Python, React",DevOps Engineer SQL AWS Python React
+105.7667541110027,Karim,Mejri,Backend Developer,"Linux, Node.js, React, TypeScript, CI/CD",Backend Developer Linux Node.js React TypeScript CI/CD
+167.30460627934065,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+29.077824159782516,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+38.86015269928906,Rim,Bouazizi,Full Stack Developer,"Data Analysis, Express, AWS, HTML, JavaScript",Full Stack Developer Data Analysis Express AWS HTML JavaScript
+97.53815262167193,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+7.179001967198646,Omar,Masmoudi,Frontend Developer,"Express, REST APIs, MongoDB, CI/CD, Python, JavaScript, Data Analysis",Frontend Developer Express REST APIs MongoDB CI/CD Python JavaScript Data Analysis
+162.6836323330832,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+173.92198661732823,Nour,Masmoudi,Data Scientist,"Machine Learning, Python, MongoDB, Docker, JavaScript, AWS",Data Scientist Machine Learning Python MongoDB Docker JavaScript AWS
+53.40200429843547,Nour,Ben Salah,Data Scientist,"Data Analysis, SQL, React, TypeScript",Data Scientist Data Analysis SQL React TypeScript
+185.10486931994578,Ikram,Trabelsi,Full Stack Developer,"JavaScript, TypeScript, NLP, Linux, AWS, CI/CD, Node.js",Full Stack Developer JavaScript TypeScript NLP Linux AWS CI/CD Node.js
+22.53695378114913,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+123.81464819745275,Omar,Ben Salah,DevOps Engineer,"Data Analysis, Python, CSS, Angular, REST APIs",DevOps Engineer Data Analysis Python CSS Angular REST APIs
+5.980717733526454,Amira,Haddad,Backend Developer,"Angular, MongoDB, AWS, CI/CD, NLP, SQL, Data Analysis",Backend Developer Angular MongoDB AWS CI/CD NLP SQL Data Analysis
+129.48202964771463,Amira,Haddad,Frontend Developer,"Angular, CSS, CI/CD, Data Analysis, REST APIs",Frontend Developer Angular CSS CI/CD Data Analysis REST APIs
+195.61837033617232,Mohamed,Mejri,DevOps Engineer,"Linux, Angular, NLP, Python, React, JavaScript, Express",DevOps Engineer Linux Angular NLP Python React JavaScript Express
+187.510693625703,Ikram,Trabelsi,Full Stack Developer,"JavaScript, TypeScript, NLP, Linux, AWS, CI/CD, Node.js",Full Stack Developer JavaScript TypeScript NLP Linux AWS CI/CD Node.js
+170.05495053993877,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+83.63618026361854,Ali,Ayadi,Data Scientist,"CSS, Data Analysis, Python, MongoDB",Data Scientist CSS Data Analysis Python MongoDB
+88.06820509290336,Asma,Jouini,Frontend Developer,"SQL, Python, CSS, AWS",Frontend Developer SQL Python CSS AWS
+139.69106813034927,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+152.72519954492677,Mohamed,Ayadi,DevOps Engineer,"Python, HTML, REST APIs, Angular, JavaScript, React, MongoDB",DevOps Engineer Python HTML REST APIs Angular JavaScript React MongoDB
+156.76445257419505,Karim,Ayadi,Frontend Developer,"Data Analysis, MongoDB, Machine Learning, TypeScript, JavaScript, REST APIs",Frontend Developer Data Analysis MongoDB Machine Learning TypeScript JavaScript REST APIs
+141.03288129806714,Karim,Ayadi,Frontend Developer,"Node.js, AWS, React, MongoDB, CI/CD, Angular",Frontend Developer Node.js AWS React MongoDB CI/CD Angular
+111.18191110828293,Houssem,Mejri,Frontend Developer,"Angular, TypeScript, React, Linux",Frontend Developer Angular TypeScript React Linux
+149.35813596887644,Yasmine,Ben Salah,Full Stack Developer,"AWS, REST APIs, TypeScript, CSS, Data Analysis, SQL",Full Stack Developer AWS REST APIs TypeScript CSS Data Analysis SQL
+59.50936020933794,Nour,Gharbi,Backend Developer,"CI/CD, NLP, TypeScript, Machine Learning",Backend Developer CI/CD NLP TypeScript Machine Learning
+29.111457266188285,Rim,Jouini,Backend Developer,"MongoDB, AWS, Angular, Python, Machine Learning, NLP, CI/CD",Backend Developer MongoDB AWS Angular Python Machine Learning NLP CI/CD
+76.9968111122099,Sami,Ben Salah,Backend Developer,"React, TypeScript, MongoDB, REST APIs, Docker, AWS, NLP",Backend Developer React TypeScript MongoDB REST APIs Docker AWS NLP
+114.79638175697767,Yasmine,Bouazizi,DevOps Engineer,"HTML, Docker, NLP, SQL",DevOps Engineer HTML Docker NLP SQL
+82.54724035959944,Ali,Ayadi,Data Scientist,"CSS, Data Analysis, Python, MongoDB",Data Scientist CSS Data Analysis Python MongoDB
+29.49259209765785,Asma,Masmoudi,Data Scientist,"Express, SQL, Docker, JavaScript, Node.js, AWS, Linux",Data Scientist Express SQL Docker JavaScript Node.js AWS Linux
+2.320378861066975,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+8.597090280038865,Omar,Ayadi,Backend Developer,"CI/CD, TypeScript, Docker, JavaScript, NLP, SQL",Backend Developer CI/CD TypeScript Docker JavaScript NLP SQL
+93.74075871703862,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+127.44813399178905,Sara,Jouini,Data Scientist,"Angular, Data Analysis, REST APIs, JavaScript",Data Scientist Angular Data Analysis REST APIs JavaScript
+116.88368615542868,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+61.363451043639145,Yasmine,Ayadi,Frontend Developer,"HTML, Angular, CI/CD, Express",Frontend Developer HTML Angular CI/CD Express
+191.4015739205561,Mohamed,Mejri,DevOps Engineer,"Linux, Angular, NLP, Python, React, JavaScript, Express",DevOps Engineer Linux Angular NLP Python React JavaScript Express
+92.08582245828225,Wael,Ben Salah,Data Scientist,"NLP, Machine Learning, Express, TypeScript",Data Scientist NLP Machine Learning Express TypeScript
+108.99769059348793,Asma,Gharbi,Frontend Developer,"JavaScript, NLP, SQL, AWS, Docker",Frontend Developer JavaScript NLP SQL AWS Docker
+19.767394443823854,Nour,Jouini,Data Scientist,"SQL, Angular, React, Docker, Linux, MongoDB",Data Scientist SQL Angular React Docker Linux MongoDB
+202.9806217704603,Yassine,Trabelsi,Frontend Developer,"AWS, HTML, Data Analysis, TypeScript, SQL, CI/CD, Angular",Frontend Developer AWS HTML Data Analysis TypeScript SQL CI/CD Angular
+125.94552298129815,Ahmed,Haddad,Full Stack Developer,"Node.js, JavaScript, SQL, Machine Learning, AWS, CSS",Full Stack Developer Node.js JavaScript SQL Machine Learning AWS CSS
+4.735077690024294,Yasmine,Gharbi,DevOps Engineer,"Python, Machine Learning, NLP, Angular, React",DevOps Engineer Python Machine Learning NLP Angular React
+184.68331415614475,Omar,Mejri,Backend Developer,"Machine Learning, SQL, HTML, AWS, NLP, MongoDB",Backend Developer Machine Learning SQL HTML AWS NLP MongoDB
+158.04953006663348,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+50.663277979374705,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+100.00062144144626,Amira,Haddad,Full Stack Developer,"REST APIs, JavaScript, Data Analysis, SQL, Linux",Full Stack Developer REST APIs JavaScript Data Analysis SQL Linux
+71.57323712308826,Omar,Haddad,Data Scientist,"Express, Data Analysis, Node.js, HTML, SQL",Data Scientist Express Data Analysis Node.js HTML SQL
+57.15854263017315,Nour,Gharbi,Backend Developer,"CI/CD, NLP, TypeScript, Machine Learning",Backend Developer CI/CD NLP TypeScript Machine Learning
+54.35873343714378,Asma,Ayadi,Full Stack Developer,"Data Analysis, React, JavaScript, MongoDB, CI/CD, Linux",Full Stack Developer Data Analysis React JavaScript MongoDB CI/CD Linux
+26.697710907658326,Rim,Jouini,Backend Developer,"MongoDB, AWS, Angular, Python, Machine Learning, NLP, CI/CD",Backend Developer MongoDB AWS Angular Python Machine Learning NLP CI/CD
+137.36157215753735,Sami,Kacem,Frontend Developer,"NLP, CI/CD, SQL, Docker",Frontend Developer NLP CI/CD SQL Docker
+56.80432871625402,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+27.788083086928317,Sami,Masmoudi,Full Stack Developer,"REST APIs, Node.js, Python, JavaScript, MongoDB, Angular",Full Stack Developer REST APIs Node.js Python JavaScript MongoDB Angular
+71.69623117473671,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+110.62207315969513,Meriem,Jouini,Data Scientist,"TypeScript, AWS, Express, REST APIs",Data Scientist TypeScript AWS Express REST APIs
+174.67965876275954,Meriem,Mejri,Data Scientist,"Linux, Python, HTML, CI/CD, Data Analysis, Angular, AWS",Data Scientist Linux Python HTML CI/CD Data Analysis Angular AWS
+20.94516612583113,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+122.34067864398615,Ahmed,Haddad,Full Stack Developer,"Node.js, JavaScript, SQL, Machine Learning, AWS, CSS",Full Stack Developer Node.js JavaScript SQL Machine Learning AWS CSS
+125.2661947245779,Ahmed,Haddad,Full Stack Developer,"Node.js, JavaScript, SQL, Machine Learning, AWS, CSS",Full Stack Developer Node.js JavaScript SQL Machine Learning AWS CSS
+41.040602012602534,Amira,Mejri,Data Scientist,"SQL, Linux, MongoDB, Angular, Node.js",Data Scientist SQL Linux MongoDB Angular Node.js
+39.7053789679669,Ahmed,Trabelsi,DevOps Engineer,"Angular, CSS, Python, Express, Data Analysis, REST APIs",DevOps Engineer Angular CSS Python Express Data Analysis REST APIs
+162.3152477343212,Nour,Trabelsi,Backend Developer,"NLP, Express, Machine Learning, MongoDB",Backend Developer NLP Express Machine Learning MongoDB
+158.5836926730636,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+115.12345884661403,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+160.5408492030063,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+49.266380236668745,Nour,Ben Salah,Data Scientist,"Data Analysis, SQL, React, TypeScript",Data Scientist Data Analysis SQL React TypeScript
+195.8042024241347,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+95.73826952702836,Asma,Jouini,Frontend Developer,"SQL, Python, CSS, AWS",Frontend Developer SQL Python CSS AWS
+94.66801801283475,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+156.06588742320997,Rim,Gharbi,Frontend Developer,"AWS, Docker, Machine Learning, Linux, Node.js",Frontend Developer AWS Docker Machine Learning Linux Node.js
+170.78112588356632,Yasmine,Ayadi,Backend Developer,"Machine Learning, Express, MongoDB, SQL",Backend Developer Machine Learning Express MongoDB SQL
+175.5614026667092,Nour,Masmoudi,Data Scientist,"Machine Learning, Python, MongoDB, Docker, JavaScript, AWS",Data Scientist Machine Learning Python MongoDB Docker JavaScript AWS
+132.57673558059562,Ines,Trabelsi,Frontend Developer,"Machine Learning, Data Analysis, REST APIs, NLP, TypeScript, Docker, JavaScript",Frontend Developer Machine Learning Data Analysis REST APIs NLP TypeScript Docker JavaScript
+26.27244087189388,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+142.53931429564042,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+136.58740874246254,Asma,Kacem,Full Stack Developer,"JavaScript, TypeScript, Machine Learning, NLP, HTML",Full Stack Developer JavaScript TypeScript Machine Learning NLP HTML
+120.11782084310816,Nour,Ben Salah,Full Stack Developer,"JavaScript, Node.js, SQL, Machine Learning, AWS",Full Stack Developer JavaScript Node.js SQL Machine Learning AWS
+157.4840509400533,Sami,Mejri,DevOps Engineer,"Express, Node.js, CI/CD, Docker",DevOps Engineer Express Node.js CI/CD Docker
+195.05625366775328,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript
+88.26774220730023,Sami,Masmoudi,Frontend Developer,"TypeScript, Docker, MongoDB, HTML, CI/CD, Data Analysis",Frontend Developer TypeScript Docker MongoDB HTML CI/CD Data Analysis
+33.211295449466206,Ines,Ayadi,DevOps Engineer,"AWS, Data Analysis, React, REST APIs",DevOps Engineer AWS Data Analysis React REST APIs
+171.37923271944265,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+197.35397208489886,Ali,Masmoudi,DevOps Engineer,"SQL, TypeScript, Data Analysis, CSS, NLP, Linux",DevOps Engineer SQL TypeScript Data Analysis CSS NLP Linux
+24.687605679718203,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+62.57436572409448,Anis,Kacem,Data Scientist,"SQL, CI/CD, HTML, JavaScript, CSS, REST APIs, TypeScript",Data Scientist SQL CI/CD HTML JavaScript CSS REST APIs TypeScript
+197.5428640608925,Mohamed,Mejri,DevOps Engineer,"Linux, Angular, NLP, Python, React, JavaScript, Express",DevOps Engineer Linux Angular NLP Python React JavaScript Express
+143.81142017263605,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+33.73967340219335,Amira,Mejri,Data Scientist,"SQL, Linux, MongoDB, Angular, Node.js",Data Scientist SQL Linux MongoDB Angular Node.js
+191.8848841834113,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+13.591235608211116,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+179.33876656911605,Nour,Masmoudi,Backend Developer,"SQL, NLP, React, AWS",Backend Developer SQL NLP React AWS
+196.6902611764015,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript
+10.137207369375943,Omar,Ayadi,Backend Developer,"CI/CD, TypeScript, Docker, JavaScript, NLP, SQL",Backend Developer CI/CD TypeScript Docker JavaScript NLP SQL
+36.64903825344899,Ines,Ayadi,DevOps Engineer,"AWS, Data Analysis, React, REST APIs",DevOps Engineer AWS Data Analysis React REST APIs
+149.14187566442888,Mohamed,Ayadi,DevOps Engineer,"Python, HTML, REST APIs, Angular, JavaScript, React, MongoDB",DevOps Engineer Python HTML REST APIs Angular JavaScript React MongoDB
+9.441748055098673,Omar,Ayadi,Backend Developer,"CI/CD, TypeScript, Docker, JavaScript, NLP, SQL",Backend Developer CI/CD TypeScript Docker JavaScript NLP SQL
+66.20814185935932,Asma,Masmoudi,Backend Developer,"HTML, AWS, Docker, Node.js",Backend Developer HTML AWS Docker Node.js
+167.75765638522378,Ahmed,Mejri,DevOps Engineer,"AWS, TypeScript, Linux, JavaScript, REST APIs, Data Analysis",DevOps Engineer AWS TypeScript Linux JavaScript REST APIs Data Analysis
+89.6917114028336,Ines,Gharbi,Frontend Developer,"JavaScript, CSS, NLP, Node.js",Frontend Developer JavaScript CSS NLP Node.js
+76.161980991678,Rim,Masmoudi,Data Scientist,"Python, Node.js, React, CI/CD",Data Scientist Python Node.js React CI/CD
+90.84066218558178,Nour,Ben Salah,Backend Developer,"Express, Angular, HTML, SQL, Docker, NLP",Backend Developer Express Angular HTML SQL Docker NLP
+100.87792329920326,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+122.40002787784968,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+186.2620965953994,Karim,Ayadi,Frontend Developer,"Data Analysis, TypeScript, Express, AWS, SQL",Frontend Developer Data Analysis TypeScript Express AWS SQL
+45.04792257223824,Lina,Trabelsi,Backend Developer,"SQL, React, REST APIs, CI/CD, Express",Backend Developer SQL React REST APIs CI/CD Express
+120.95662589273381,Omar,Ayadi,DevOps Engineer,"TypeScript, Angular, Docker, HTML, JavaScript, Linux, NLP",DevOps Engineer TypeScript Angular Docker HTML JavaScript Linux NLP
+75.29774964576758,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+38.324406081715466,Lina,Masmoudi,DevOps Engineer,"MongoDB, Docker, CSS, Data Analysis, HTML, Express",DevOps Engineer MongoDB Docker CSS Data Analysis HTML Express
+95.1836640963972,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+54.5247884579233,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+151.24480539374727,Ikram,Mejri,Backend Developer,"JavaScript, Machine Learning, AWS, Angular",Backend Developer JavaScript Machine Learning AWS Angular
+118.5874682517515,Asma,Gharbi,Frontend Developer,"JavaScript, NLP, SQL, AWS, Docker",Frontend Developer JavaScript NLP SQL AWS Docker
+29.466708659071834,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+94.9410192730374,Omar,Haddad,Frontend Developer,"HTML, CSS, MongoDB, Machine Learning, AWS",Frontend Developer HTML CSS MongoDB Machine Learning AWS
+49.76321063142316,Nour,Ben Salah,Data Scientist,"Data Analysis, SQL, React, TypeScript",Data Scientist Data Analysis SQL React TypeScript
+24.59487181635329,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+94.39189767286153,Anis,Masmoudi,DevOps Engineer,"HTML, CI/CD, TypeScript, Linux, MongoDB",DevOps Engineer HTML CI/CD TypeScript Linux MongoDB
+18.501673769381405,Mohamed,Trabelsi,Full Stack Developer,"JavaScript, Angular, REST APIs, CSS, Docker",Full Stack Developer JavaScript Angular REST APIs CSS Docker
+147.68650085248055,Yasmine,Ben Salah,Full Stack Developer,"AWS, REST APIs, TypeScript, CSS, Data Analysis, SQL",Full Stack Developer AWS REST APIs TypeScript CSS Data Analysis SQL
+54.424431400811876,Asma,Ayadi,Full Stack Developer,"Data Analysis, React, JavaScript, MongoDB, CI/CD, Linux",Full Stack Developer Data Analysis React JavaScript MongoDB CI/CD Linux
+114.43997436798402,Omar,Ayadi,DevOps Engineer,"TypeScript, Angular, Docker, HTML, JavaScript, Linux, NLP",DevOps Engineer TypeScript Angular Docker HTML JavaScript Linux NLP
+6.0160911554434735,Yassine,Ben Salah,Full Stack Developer,"REST APIs, Angular, JavaScript, HTML, MongoDB, Python",Full Stack Developer REST APIs Angular JavaScript HTML MongoDB Python
+68.18170322181193,Karim,Kacem,Frontend Developer,"REST APIs, Docker, Machine Learning, Node.js, TypeScript, React, HTML",Frontend Developer REST APIs Docker Machine Learning Node.js TypeScript React HTML
+102.26194676453794,Sara,Kacem,Frontend Developer,"Node.js, SQL, JavaScript, React",Frontend Developer Node.js SQL JavaScript React
+151.41173393168063,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+194.88440831541214,Sami,Jouini,Backend Developer,"Angular, Data Analysis, CSS, JavaScript, SQL, Express",Backend Developer Angular Data Analysis CSS JavaScript SQL Express
+171.56666256035277,Nour,Ayadi,Backend Developer,"Angular, NLP, React, JavaScript, Python",Backend Developer Angular NLP React JavaScript Python
+152.4344778262853,Karim,Kacem,Full Stack Developer,"MongoDB, Express, NLP, HTML, TypeScript",Full Stack Developer MongoDB Express NLP HTML TypeScript
+18.488299006589024,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+127.70882155363525,Amira,Haddad,Frontend Developer,"Angular, CSS, CI/CD, Data Analysis, REST APIs",Frontend Developer Angular CSS CI/CD Data Analysis REST APIs
+26.920970337041798,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+168.9028109458448,Yasmine,Ayadi,Backend Developer,"Machine Learning, Express, MongoDB, SQL",Backend Developer Machine Learning Express MongoDB SQL
+95.22812211328593,Ali,Masmoudi,Backend Developer,"AWS, React, MongoDB, SQL, Data Analysis, NLP, JavaScript",Backend Developer AWS React MongoDB SQL Data Analysis NLP JavaScript
+67.60025206540351,Asma,Masmoudi,Backend Developer,"HTML, AWS, Docker, Node.js",Backend Developer HTML AWS Docker Node.js
+17.11772224903703,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+60.33548796872413,Sami,Haddad,Data Scientist,"Express, CI/CD, Angular, Linux, MongoDB, React",Data Scientist Express CI/CD Angular Linux MongoDB React
+38.8165230873523,Nour,Ayadi,Data Scientist,"Node.js, JavaScript, Docker, REST APIs, NLP, Angular, CSS",Data Scientist Node.js JavaScript Docker REST APIs NLP Angular CSS
+173.25421869219605,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+93.02676422951903,Houssem,Trabelsi,Frontend Developer,"Linux, NLP, Express, SQL, CI/CD, REST APIs, Data Analysis",Frontend Developer Linux NLP Express SQL CI/CD REST APIs Data Analysis
+169.97320087269455,Yasmine,Ayadi,Backend Developer,"Machine Learning, Express, MongoDB, SQL",Backend Developer Machine Learning Express MongoDB SQL
+93.84744235111354,Yasmine,Ayadi,DevOps Engineer,"NLP, MongoDB, CSS, Express, Node.js, AWS, REST APIs",DevOps Engineer NLP MongoDB CSS Express Node.js AWS REST APIs
+55.495215700719804,Yassine,Jouini,Frontend Developer,"Machine Learning, Linux, CI/CD, MongoDB, React, REST APIs",Frontend Developer Machine Learning Linux CI/CD MongoDB React REST APIs
+68.80858005308914,Rim,Ayadi,Frontend Developer,"TypeScript, Linux, Node.js, NLP",Frontend Developer TypeScript Linux Node.js NLP
+105.4962680077941,Ahmed,Kacem,Data Scientist,"CSS, React, REST APIs, Python, Data Analysis, Angular, Linux",Data Scientist CSS React REST APIs Python Data Analysis Angular Linux
+95.4083509021419,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+51.288434360593314,Sami,Ben Salah,Backend Developer,"Data Analysis, React, HTML, NLP, CI/CD, Angular, SQL",Backend Developer Data Analysis React HTML NLP CI/CD Angular SQL
+137.70830886637881,Sami,Kacem,Frontend Developer,"NLP, CI/CD, SQL, Docker",Frontend Developer NLP CI/CD SQL Docker
+88.15401523183739,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+85.92301887412658,Yasmine,Haddad,Backend Developer,"MongoDB, Python, AWS, Machine Learning, Express",Backend Developer MongoDB Python AWS Machine Learning Express
+11.606472742298955,Yasmine,Gharbi,DevOps Engineer,"Python, Machine Learning, NLP, Angular, React",DevOps Engineer Python Machine Learning NLP Angular React
+64.52636994263618,Ines,Masmoudi,Frontend Developer,"SQL, Python, Data Analysis, MongoDB, REST APIs, HTML, AWS",Frontend Developer SQL Python Data Analysis MongoDB REST APIs HTML AWS
+74.98079386877495,Ali,Haddad,Full Stack Developer,"MongoDB, React, AWS, JavaScript",Full Stack Developer MongoDB React AWS JavaScript
+130.35738923416926,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+87.23471064219552,Karim,Ben Salah,Frontend Developer,"Node.js, CSS, TypeScript, MongoDB, NLP, CI/CD, React",Frontend Developer Node.js CSS TypeScript MongoDB NLP CI/CD React
+70.7995382246158,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+113.36017203337767,Wael,Haddad,DevOps Engineer,"Linux, Node.js, CSS, MongoDB",DevOps Engineer Linux Node.js CSS MongoDB
+127.58793770255421,Karim,Gharbi,Full Stack Developer,"CSS, Python, Data Analysis, Linux, REST APIs",Full Stack Developer CSS Python Data Analysis Linux REST APIs
+133.32961642833453,Asma,Kacem,Full Stack Developer,"JavaScript, TypeScript, Machine Learning, NLP, HTML",Full Stack Developer JavaScript TypeScript Machine Learning NLP HTML
+110.8298322852665,Karim,Haddad,Data Scientist,"Linux, NLP, Docker, TypeScript, CI/CD, HTML",Data Scientist Linux NLP Docker TypeScript CI/CD HTML
+129.63551982122013,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+126.7437901777434,Yasmine,Haddad,DevOps Engineer,"TypeScript, Angular, React, NLP, MongoDB",DevOps Engineer TypeScript Angular React NLP MongoDB
+97.85477913145745,Ali,Masmoudi,Backend Developer,"AWS, React, MongoDB, SQL, Data Analysis, NLP, JavaScript",Backend Developer AWS React MongoDB SQL Data Analysis NLP JavaScript
+6.393290910817114,Sara,Kacem,Full Stack Developer,"HTML, Docker, Node.js, Linux, CI/CD, Angular",Full Stack Developer HTML Docker Node.js Linux CI/CD Angular
+101.08664349102418,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+69.71277242515468,Karim,Bouazizi,Backend Developer,"Node.js, REST APIs, Machine Learning, JavaScript, Linux, HTML, TypeScript",Backend Developer Node.js REST APIs Machine Learning JavaScript Linux HTML TypeScript
+176.15522640206288,Omar,Mejri,Backend Developer,"Machine Learning, SQL, HTML, AWS, NLP, MongoDB",Backend Developer Machine Learning SQL HTML AWS NLP MongoDB
+92.26437288524674,Asma,Jouini,Frontend Developer,"SQL, Python, CSS, AWS",Frontend Developer SQL Python CSS AWS
+15.793220065392909,Yasmine,Kacem,Full Stack Developer,"React, CI/CD, NLP, TypeScript, AWS, CSS",Full Stack Developer React CI/CD NLP TypeScript AWS CSS
+168.68533082442264,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+74.84242363693456,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+118.09245236892315,Yasmine,Haddad,DevOps Engineer,"TypeScript, Angular, React, NLP, MongoDB",DevOps Engineer TypeScript Angular React NLP MongoDB
+58.34087096647268,Mohamed,Trabelsi,Full Stack Developer,"MongoDB, SQL, Machine Learning, Data Analysis, Angular",Full Stack Developer MongoDB SQL Machine Learning Data Analysis Angular
+99.62908100641468,Meriem,Jouini,Data Scientist,"TypeScript, AWS, Express, REST APIs",Data Scientist TypeScript AWS Express REST APIs
+168.09065011001613,Wael,Trabelsi,Backend Developer,"HTML, CSS, Angular, Node.js, SQL, Machine Learning",Backend Developer HTML CSS Angular Node.js SQL Machine Learning
+76.70239794223659,Lina,Masmoudi,Data Scientist,"CI/CD, NLP, React, MongoDB, JavaScript",Data Scientist CI/CD NLP React MongoDB JavaScript
+158.44959917583378,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+155.58674821787034,Yasmine,Ben Salah,Full Stack Developer,"AWS, REST APIs, TypeScript, CSS, Data Analysis, SQL",Full Stack Developer AWS REST APIs TypeScript CSS Data Analysis SQL
+9.431541697485528,Omar,Masmoudi,Frontend Developer,"Express, REST APIs, MongoDB, CI/CD, Python, JavaScript, Data Analysis",Frontend Developer Express REST APIs MongoDB CI/CD Python JavaScript Data Analysis
+189.9814321613159,Yasmine,Gharbi,Backend Developer,"HTML, AWS, React, TypeScript",Backend Developer HTML AWS React TypeScript
+-1.7645133030920799,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+3.3175898227034106,Yasmine,Gharbi,DevOps Engineer,"Python, Machine Learning, NLP, Angular, React",DevOps Engineer Python Machine Learning NLP Angular React
+90.43950301789577,Karim,Ben Salah,Frontend Developer,"Node.js, CSS, TypeScript, MongoDB, NLP, CI/CD, React",Frontend Developer Node.js CSS TypeScript MongoDB NLP CI/CD React
+187.54628920005413,Ikram,Trabelsi,DevOps Engineer,"SQL, CSS, Data Analysis, React, MongoDB, Docker, JavaScript",DevOps Engineer SQL CSS Data Analysis React MongoDB Docker JavaScript
+173.2488811804111,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+74.95074217429207,Omar,Haddad,Data Scientist,"Express, Data Analysis, Node.js, HTML, SQL",Data Scientist Express Data Analysis Node.js HTML SQL
+183.67392905661484,Ikram,Trabelsi,Full Stack Developer,"JavaScript, TypeScript, NLP, Linux, AWS, CI/CD, Node.js",Full Stack Developer JavaScript TypeScript NLP Linux AWS CI/CD Node.js
+172.508844679822,Nour,Ayadi,Backend Developer,"Angular, NLP, React, JavaScript, Python",Backend Developer Angular NLP React JavaScript Python
+100.2562278269881,Amira,Haddad,Full Stack Developer,"REST APIs, JavaScript, Data Analysis, SQL, Linux",Full Stack Developer REST APIs JavaScript Data Analysis SQL Linux
+163.39779540527297,Nour,Trabelsi,Backend Developer,"NLP, Express, Machine Learning, MongoDB",Backend Developer NLP Express Machine Learning MongoDB
+177.6407776193245,Nour,Masmoudi,Backend Developer,"SQL, NLP, React, AWS",Backend Developer SQL NLP React AWS
+155.15573817304625,Omar,Ben Salah,Data Scientist,"NLP, Linux, React, MongoDB",Data Scientist NLP Linux React MongoDB
+172.07270364171987,Nour,Jouini,Full Stack Developer,"Angular, SQL, JavaScript, Machine Learning, React, CI/CD",Full Stack Developer Angular SQL JavaScript Machine Learning React CI/CD
+109.88559209162311,Karim,Haddad,Data Scientist,"Linux, NLP, Docker, TypeScript, CI/CD, HTML",Data Scientist Linux NLP Docker TypeScript CI/CD HTML
+17.792062436581453,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+135.5553518631983,Yasmine,Ayadi,Backend Developer,"HTML, CI/CD, Express, AWS, Python",Backend Developer HTML CI/CD Express AWS Python
+29.72168814356713,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+17.69951836434616,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+38.109298360522615,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+10.938142058266573,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+78.53198897160563,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+185.12158735112016,Yasmine,Gharbi,Backend Developer,"HTML, AWS, React, TypeScript",Backend Developer HTML AWS React TypeScript
+167.9091862166795,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+184.48368233410497,Sami,Haddad,Full Stack Developer,"AWS, Python, HTML, TypeScript, Machine Learning",Full Stack Developer AWS Python HTML TypeScript Machine Learning
+143.96883458986463,Karim,Bouazizi,Full Stack Developer,"REST APIs, AWS, JavaScript, Data Analysis",Full Stack Developer REST APIs AWS JavaScript Data Analysis
+95.8230053460855,Yasmine,Ayadi,DevOps Engineer,"NLP, MongoDB, CSS, Express, Node.js, AWS, REST APIs",DevOps Engineer NLP MongoDB CSS Express Node.js AWS REST APIs
+54.90651303403361,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+107.52109348427814,Ahmed,Kacem,Data Scientist,"Docker, Node.js, Python, Machine Learning, TypeScript, Data Analysis",Data Scientist Docker Node.js Python Machine Learning TypeScript Data Analysis
+89.97992486640615,Omar,Haddad,Frontend Developer,"HTML, CSS, MongoDB, Machine Learning, AWS",Frontend Developer HTML CSS MongoDB Machine Learning AWS
+71.75625081977408,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+123.2129784115381,Sara,Jouini,Data Scientist,"Angular, Data Analysis, REST APIs, JavaScript",Data Scientist Angular Data Analysis REST APIs JavaScript
+181.63855940798837,Mohamed,Masmoudi,Frontend Developer,"CI/CD, AWS, Angular, REST APIs, SQL, Python",Frontend Developer CI/CD AWS Angular REST APIs SQL Python
+20.78247935697089,Sami,Kacem,DevOps Engineer,"Express, Data Analysis, Python, Node.js, AWS, Docker",DevOps Engineer Express Data Analysis Python Node.js AWS Docker
+140.33792639183324,Mohamed,Bouazizi,DevOps Engineer,"NLP, Python, HTML, Linux",DevOps Engineer NLP Python HTML Linux
+11.175278477116073,Omar,Masmoudi,Frontend Developer,"Express, REST APIs, MongoDB, CI/CD, Python, JavaScript, Data Analysis",Frontend Developer Express REST APIs MongoDB CI/CD Python JavaScript Data Analysis
+136.70485050805502,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+145.04630169600162,Wael,Gharbi,Full Stack Developer,"JavaScript, TypeScript, Linux, HTML, NLP",Full Stack Developer JavaScript TypeScript Linux HTML NLP
+10.03079400562708,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+45.685843506185,Meriem,Bouazizi,Backend Developer,"Linux, Node.js, REST APIs, Machine Learning, Python, AWS",Backend Developer Linux Node.js REST APIs Machine Learning Python AWS
+50.979380750147904,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+72.772256500927,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+108.07714512734553,Sami,Mejri,Backend Developer,"CI/CD, NLP, Machine Learning, Python, Node.js, SQL",Backend Developer CI/CD NLP Machine Learning Python Node.js SQL
+105.675028541683,Rim,Ayadi,DevOps Engineer,"NLP, Linux, Docker, MongoDB, HTML, Express",DevOps Engineer NLP Linux Docker MongoDB HTML Express
+20.906567400956263,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+60.1094398804366,Anis,Kacem,Data Scientist,"SQL, CI/CD, HTML, JavaScript, CSS, REST APIs, TypeScript",Data Scientist SQL CI/CD HTML JavaScript CSS REST APIs TypeScript
+139.81672063577886,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+133.11747243032013,Karim,Gharbi,Full Stack Developer,"CSS, Python, Data Analysis, Linux, REST APIs",Full Stack Developer CSS Python Data Analysis Linux REST APIs
+13.689450992198534,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+113.48130349090657,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+168.2811646685483,Yasmine,Ayadi,Backend Developer,"Machine Learning, Express, MongoDB, SQL",Backend Developer Machine Learning Express MongoDB SQL
+199.0995136133143,Mohamed,Mejri,DevOps Engineer,"Linux, Angular, NLP, Python, React, JavaScript, Express",DevOps Engineer Linux Angular NLP Python React JavaScript Express
+112.03331842465052,Asma,Gharbi,Frontend Developer,"JavaScript, NLP, SQL, AWS, Docker",Frontend Developer JavaScript NLP SQL AWS Docker
+174.79412519876308,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+122.32581840026734,Omar,Ben Salah,DevOps Engineer,"Data Analysis, Python, CSS, Angular, REST APIs",DevOps Engineer Data Analysis Python CSS Angular REST APIs
+193.74339200987706,Sami,Jouini,Backend Developer,"Angular, Data Analysis, CSS, JavaScript, SQL, Express",Backend Developer Angular Data Analysis CSS JavaScript SQL Express
+115.35856527036321,Karim,Masmoudi,Frontend Developer,"JavaScript, Data Analysis, CI/CD, Linux",Frontend Developer JavaScript Data Analysis CI/CD Linux
+46.11882176701383,Rim,Bouazizi,Full Stack Developer,"Data Analysis, Express, AWS, HTML, JavaScript",Full Stack Developer Data Analysis Express AWS HTML JavaScript
+28.73045225927101,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+161.40624518713196,Karim,Ayadi,Frontend Developer,"Data Analysis, MongoDB, Machine Learning, TypeScript, JavaScript, REST APIs",Frontend Developer Data Analysis MongoDB Machine Learning TypeScript JavaScript REST APIs
+111.59746340779398,Asma,Gharbi,Frontend Developer,"JavaScript, NLP, SQL, AWS, Docker",Frontend Developer JavaScript NLP SQL AWS Docker
+71.85250891028949,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+28.1987539602294,Anis,Trabelsi,Backend Developer,"REST APIs, Docker, AWS, MongoDB, Python",Backend Developer REST APIs Docker AWS MongoDB Python
+117.25110380441647,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+35.34183112221521,Yassine,Bouazizi,Full Stack Developer,"NLP, Node.js, HTML, Docker, Python, SQL, JavaScript",Full Stack Developer NLP Node.js HTML Docker Python SQL JavaScript
+46.8931551240723,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+18.50855664646603,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+134.96120513408965,Sami,Kacem,Frontend Developer,"NLP, CI/CD, SQL, Docker",Frontend Developer NLP CI/CD SQL Docker
+176.53252353650618,Nour,Masmoudi,Data Scientist,"Machine Learning, Python, MongoDB, Docker, JavaScript, AWS",Data Scientist Machine Learning Python MongoDB Docker JavaScript AWS
+157.76065395326293,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+131.89707521104853,Wael,Bouazizi,Full Stack Developer,"REST APIs, HTML, Linux, Node.js, Docker, SQL, CI/CD",Full Stack Developer REST APIs HTML Linux Node.js Docker SQL CI/CD
+1.0607888213586496,Rim,Ayadi,Full Stack Developer,"Python, CSS, Linux, React, Node.js",Full Stack Developer Python CSS Linux React Node.js
+132.90732285018345,Yasmine,Ayadi,Backend Developer,"HTML, CI/CD, Express, AWS, Python",Backend Developer HTML CI/CD Express AWS Python
+74.13802409434213,Omar,Haddad,Data Scientist,"Express, Data Analysis, Node.js, HTML, SQL",Data Scientist Express Data Analysis Node.js HTML SQL
+170.2728871671797,Nour,Jouini,Full Stack Developer,"Angular, SQL, JavaScript, Machine Learning, React, CI/CD",Full Stack Developer Angular SQL JavaScript Machine Learning React CI/CD
+45.04620842124986,Ali,Gharbi,Data Scientist,"SQL, AWS, REST APIs, Linux, Docker, React",Data Scientist SQL AWS REST APIs Linux Docker React
+60.578678821271396,Mohamed,Trabelsi,Full Stack Developer,"MongoDB, SQL, Machine Learning, Data Analysis, Angular",Full Stack Developer MongoDB SQL Machine Learning Data Analysis Angular
+187.26871321891124,Wael,Ayadi,Data Scientist,"Node.js, HTML, NLP, Docker, AWS",Data Scientist Node.js HTML NLP Docker AWS
+96.16789241927599,Mohamed,Trabelsi,DevOps Engineer,"AWS, TypeScript, Node.js, React, Express",DevOps Engineer AWS TypeScript Node.js React Express
+84.96241014065308,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+149.9720179242215,Sami,Ben Salah,Full Stack Developer,"Data Analysis, Linux, JavaScript, CSS",Full Stack Developer Data Analysis Linux JavaScript CSS
+35.14280023774015,Ines,Ayadi,DevOps Engineer,"AWS, Data Analysis, React, REST APIs",DevOps Engineer AWS Data Analysis React REST APIs
+119.0334110324774,Omar,Ayadi,DevOps Engineer,"TypeScript, Angular, Docker, HTML, JavaScript, Linux, NLP",DevOps Engineer TypeScript Angular Docker HTML JavaScript Linux NLP
+65.74982668428592,Mohamed,Trabelsi,Full Stack Developer,"MongoDB, SQL, Machine Learning, Data Analysis, Angular",Full Stack Developer MongoDB SQL Machine Learning Data Analysis Angular
+86.98456832898502,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+18.852945450357662,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+199.43292678263944,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+163.34489641511107,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+145.2500927007125,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+190.41947433478217,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+83.15451760749082,Rim,Masmoudi,Data Scientist,"Python, Node.js, React, CI/CD",Data Scientist Python Node.js React CI/CD
+195.5476106851882,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+181.3935817488552,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+188.191681476235,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+16.704758067162313,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+92.2431068565201,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+26.649764614821535,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+25.988831808484157,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+78.7432862586362,Rim,Kacem,Full Stack Developer,"HTML, Linux, REST APIs, Machine Learning, Express, Angular",Full Stack Developer HTML Linux REST APIs Machine Learning Express Angular
+29.051141303736422,Asma,Trabelsi,DevOps Engineer,"SQL, AWS, Python, React",DevOps Engineer SQL AWS Python React
+85.24858030058084,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+139.58861752555165,Karim,Bouazizi,Full Stack Developer,"REST APIs, AWS, JavaScript, Data Analysis",Full Stack Developer REST APIs AWS JavaScript Data Analysis
+151.0775663813664,Mohamed,Ayadi,DevOps Engineer,"Python, HTML, REST APIs, Angular, JavaScript, React, MongoDB",DevOps Engineer Python HTML REST APIs Angular JavaScript React MongoDB
+118.60724997552272,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+53.67138918109572,Yassine,Jouini,Frontend Developer,"Machine Learning, Linux, CI/CD, MongoDB, React, REST APIs",Frontend Developer Machine Learning Linux CI/CD MongoDB React REST APIs
+185.95805295232813,Karim,Ayadi,Frontend Developer,"Data Analysis, TypeScript, Express, AWS, SQL",Frontend Developer Data Analysis TypeScript Express AWS SQL
+200.65031054003927,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+37.262213326888805,Yassine,Bouazizi,Full Stack Developer,"NLP, Node.js, HTML, Docker, Python, SQL, JavaScript",Full Stack Developer NLP Node.js HTML Docker Python SQL JavaScript
+183.09243690272916,Lina,Ben Salah,Data Scientist,"TypeScript, Angular, CI/CD, Node.js, JavaScript",Data Scientist TypeScript Angular CI/CD Node.js JavaScript
+106.71486921608113,Meriem,Bouazizi,Data Scientist,"HTML, React, Docker, CI/CD, SQL, Machine Learning, MongoDB",Data Scientist HTML React Docker CI/CD SQL Machine Learning MongoDB
+47.76901758425177,Ahmed,Trabelsi,DevOps Engineer,"Angular, CSS, Python, Express, Data Analysis, REST APIs",DevOps Engineer Angular CSS Python Express Data Analysis REST APIs
+31.53099902662281,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+140.21641784333767,Karim,Ayadi,Frontend Developer,"Node.js, AWS, React, MongoDB, CI/CD, Angular",Frontend Developer Node.js AWS React MongoDB CI/CD Angular
+172.6265416611421,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+167.1592048231932,Sami,Mejri,DevOps Engineer,"Express, Node.js, CI/CD, Docker",DevOps Engineer Express Node.js CI/CD Docker
+66.46613331449815,Karim,Bouazizi,Backend Developer,"Node.js, REST APIs, Machine Learning, JavaScript, Linux, HTML, TypeScript",Backend Developer Node.js REST APIs Machine Learning JavaScript Linux HTML TypeScript
+18.187136024729003,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+115.7187469934512,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+192.52656004562155,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+81.14077480701197,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+110.70370516077566,Karim,Masmoudi,Frontend Developer,"JavaScript, Data Analysis, CI/CD, Linux",Frontend Developer JavaScript Data Analysis CI/CD Linux
+140.00606012213007,Wael,Gharbi,Full Stack Developer,"JavaScript, TypeScript, Linux, HTML, NLP",Full Stack Developer JavaScript TypeScript Linux HTML NLP
+40.517149221611504,Sami,Masmoudi,Full Stack Developer,"REST APIs, Node.js, Python, JavaScript, MongoDB, Angular",Full Stack Developer REST APIs Node.js Python JavaScript MongoDB Angular
+126.493835360205,Houssem,Ayadi,DevOps Engineer,"TypeScript, SQL, Machine Learning, React, CI/CD, Linux",DevOps Engineer TypeScript SQL Machine Learning React CI/CD Linux
+171.50677923197694,Nour,Jouini,Full Stack Developer,"Angular, SQL, JavaScript, Machine Learning, React, CI/CD",Full Stack Developer Angular SQL JavaScript Machine Learning React CI/CD
+21.526069936641402,Anis,Trabelsi,Backend Developer,"REST APIs, Docker, AWS, MongoDB, Python",Backend Developer REST APIs Docker AWS MongoDB Python
+185.91090864687655,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+13.577891546698284,Omar,Masmoudi,Frontend Developer,"Express, REST APIs, MongoDB, CI/CD, Python, JavaScript, Data Analysis",Frontend Developer Express REST APIs MongoDB CI/CD Python JavaScript Data Analysis
+14.340912496425133,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+200.4541442742572,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+52.15757528212233,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+63.697914979319,Yasmine,Ayadi,Frontend Developer,"HTML, Angular, CI/CD, Express",Frontend Developer HTML Angular CI/CD Express
+198.36895354482988,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+69.60271989953694,Ali,Haddad,Full Stack Developer,"MongoDB, React, AWS, JavaScript",Full Stack Developer MongoDB React AWS JavaScript
+167.72921424353865,Wael,Trabelsi,Backend Developer,"HTML, CSS, Angular, Node.js, SQL, Machine Learning",Backend Developer HTML CSS Angular Node.js SQL Machine Learning
+9.597132222059686,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+157.17333492384958,Karim,Ayadi,Frontend Developer,"Data Analysis, MongoDB, Machine Learning, TypeScript, JavaScript, REST APIs",Frontend Developer Data Analysis MongoDB Machine Learning TypeScript JavaScript REST APIs
+163.74519117716295,Sami,Mejri,DevOps Engineer,"Express, Node.js, CI/CD, Docker",DevOps Engineer Express Node.js CI/CD Docker
+126.41805065379229,Houssem,Bouazizi,Frontend Developer,"MongoDB, Node.js, Express, TypeScript, REST APIs",Frontend Developer MongoDB Node.js Express TypeScript REST APIs
+17.23632892226195,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+88.6454477415164,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+53.78173396545564,Amira,Mejri,DevOps Engineer,"Node.js, Python, Linux, Machine Learning, Express, HTML, Docker",DevOps Engineer Node.js Python Linux Machine Learning Express HTML Docker
+85.27615159390544,Houssem,Trabelsi,Frontend Developer,"Linux, NLP, Express, SQL, CI/CD, REST APIs, Data Analysis",Frontend Developer Linux NLP Express SQL CI/CD REST APIs Data Analysis
+38.33690295215102,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+157.02384005488327,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+30.731534189603718,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+188.06618717717154,Ikram,Trabelsi,Full Stack Developer,"JavaScript, TypeScript, NLP, Linux, AWS, CI/CD, Node.js",Full Stack Developer JavaScript TypeScript NLP Linux AWS CI/CD Node.js
+103.39788374628354,Ahmed,Kacem,Data Scientist,"CSS, React, REST APIs, Python, Data Analysis, Angular, Linux",Data Scientist CSS React REST APIs Python Data Analysis Angular Linux
+103.55088619203104,Meriem,Jouini,Data Scientist,"TypeScript, AWS, Express, REST APIs",Data Scientist TypeScript AWS Express REST APIs
+20.407270719032958,Asma,Trabelsi,DevOps Engineer,"SQL, AWS, Python, React",DevOps Engineer SQL AWS Python React
+198.8773605124542,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+87.49335965198075,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+93.54826254990829,Sami,Masmoudi,Frontend Developer,"TypeScript, Docker, MongoDB, HTML, CI/CD, Data Analysis",Frontend Developer TypeScript Docker MongoDB HTML CI/CD Data Analysis
+123.09015196175291,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+168.74178116430585,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+95.1109798210128,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+167.25395254099627,Ahmed,Mejri,DevOps Engineer,"AWS, TypeScript, Linux, JavaScript, REST APIs, Data Analysis",DevOps Engineer AWS TypeScript Linux JavaScript REST APIs Data Analysis
+95.84116411082998,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+151.35841495429455,Mohamed,Ayadi,DevOps Engineer,"Python, HTML, REST APIs, Angular, JavaScript, React, MongoDB",DevOps Engineer Python HTML REST APIs Angular JavaScript React MongoDB
+183.1003097864554,Lina,Ben Salah,Data Scientist,"TypeScript, Angular, CI/CD, Node.js, JavaScript",Data Scientist TypeScript Angular CI/CD Node.js JavaScript
+180.88732494161968,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+186.92594149679195,Wael,Ayadi,Data Scientist,"Node.js, HTML, NLP, Docker, AWS",Data Scientist Node.js HTML NLP Docker AWS
+64.48771855531243,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+120.75190143323356,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+74.13907518621802,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+90.7366779701511,Ines,Gharbi,Frontend Developer,"JavaScript, CSS, NLP, Node.js",Frontend Developer JavaScript CSS NLP Node.js
+144.32627526977376,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+87.7425308780431,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+150.60299791419237,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+186.688441635539,Yasmine,Gharbi,Backend Developer,"HTML, AWS, React, TypeScript",Backend Developer HTML AWS React TypeScript
+79.95419847290617,Ali,Ayadi,Data Scientist,"CSS, Data Analysis, Python, MongoDB",Data Scientist CSS Data Analysis Python MongoDB
+33.078287139751325,Sami,Masmoudi,Full Stack Developer,"REST APIs, Node.js, Python, JavaScript, MongoDB, Angular",Full Stack Developer REST APIs Node.js Python JavaScript MongoDB Angular
+120.2246982297922,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+168.44260758139657,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+183.53864395734493,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+202.36270135972586,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+141.05122639665566,Ikram,Kacem,DevOps Engineer,"React, SQL, MongoDB, Python",DevOps Engineer React SQL MongoDB Python
+173.76958334810357,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+19.984162560227844,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+199.30109325798907,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+5.161026397511437,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+26.74016557958614,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+195.5585085816884,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript
+123.02100661292657,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+11.084699803180575,Nour,Jouini,Backend Developer,"CI/CD, Linux, SQL, Docker, Angular, CSS",Backend Developer CI/CD Linux SQL Docker Angular CSS
+29.443379754040784,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+5.412484848149656,Amira,Haddad,Backend Developer,"Angular, MongoDB, AWS, CI/CD, NLP, SQL, Data Analysis",Backend Developer Angular MongoDB AWS CI/CD NLP SQL Data Analysis
+123.18779090053091,Omar,Ben Salah,DevOps Engineer,"Data Analysis, Python, CSS, Angular, REST APIs",DevOps Engineer Data Analysis Python CSS Angular REST APIs
+82.36448891364616,Anis,Kacem,Frontend Developer,"Linux, JavaScript, Data Analysis, MongoDB",Frontend Developer Linux JavaScript Data Analysis MongoDB
+132.6048421412644,Yasmine,Ayadi,Backend Developer,"HTML, CI/CD, Express, AWS, Python",Backend Developer HTML CI/CD Express AWS Python
+103.75672682051395,Meriem,Bouazizi,Data Scientist,"HTML, React, Docker, CI/CD, SQL, Machine Learning, MongoDB",Data Scientist HTML React Docker CI/CD SQL Machine Learning MongoDB
+33.115729979935715,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+86.45381244525134,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+159.5218283445473,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+14.387081458222784,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+179.782480551948,Mohamed,Masmoudi,Frontend Developer,"CI/CD, AWS, Angular, REST APIs, SQL, Python",Frontend Developer CI/CD AWS Angular REST APIs SQL Python
+172.24831725390166,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+24.635953228199913,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+172.00316566466188,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+167.46322579087285,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+30.72129267073625,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+93.16357580737022,Anis,Masmoudi,DevOps Engineer,"HTML, CI/CD, TypeScript, Linux, MongoDB",DevOps Engineer HTML CI/CD TypeScript Linux MongoDB
+126.97113328503508,Omar,Ben Salah,DevOps Engineer,"Data Analysis, Python, CSS, Angular, REST APIs",DevOps Engineer Data Analysis Python CSS Angular REST APIs
+121.6271797633128,Yasmine,Haddad,DevOps Engineer,"TypeScript, Angular, React, NLP, MongoDB",DevOps Engineer TypeScript Angular React NLP MongoDB
+192.89885380329594,Sami,Jouini,Backend Developer,"Angular, Data Analysis, CSS, JavaScript, SQL, Express",Backend Developer Angular Data Analysis CSS JavaScript SQL Express
+186.22210561084233,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+65.53065444856107,Yasmine,Ayadi,Frontend Developer,"HTML, Angular, CI/CD, Express",Frontend Developer HTML Angular CI/CD Express
+135.82852343614604,Yasmine,Ayadi,Backend Developer,"HTML, CI/CD, Express, AWS, Python",Backend Developer HTML CI/CD Express AWS Python
+50.14349831813453,Yasmine,Trabelsi,Data Scientist,"CI/CD, MongoDB, Python, Docker, AWS, SQL",Data Scientist CI/CD MongoDB Python Docker AWS SQL
+16.961033414935226,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+42.798879939074475,Ahmed,Trabelsi,DevOps Engineer,"Angular, CSS, Python, Express, Data Analysis, REST APIs",DevOps Engineer Angular CSS Python Express Data Analysis REST APIs
+170.8721726200412,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+70.19093702733188,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+145.93243736972371,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+102.64561238040142,Mohamed,Trabelsi,DevOps Engineer,"AWS, TypeScript, Node.js, React, Express",DevOps Engineer AWS TypeScript Node.js React Express
+146.3326524940666,Mohamed,Ayadi,DevOps Engineer,"Python, HTML, REST APIs, Angular, JavaScript, React, MongoDB",DevOps Engineer Python HTML REST APIs Angular JavaScript React MongoDB
+55.4279135666809,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+15.134280657191699,Nour,Jouini,Backend Developer,"CI/CD, Linux, SQL, Docker, Angular, CSS",Backend Developer CI/CD Linux SQL Docker Angular CSS
+61.16844557405069,Amira,Trabelsi,Full Stack Developer,"MongoDB, Python, Machine Learning, HTML, AWS, Docker, TypeScript",Full Stack Developer MongoDB Python Machine Learning HTML AWS Docker TypeScript
+128.79940766395663,Amira,Haddad,Frontend Developer,"Angular, CSS, CI/CD, Data Analysis, REST APIs",Frontend Developer Angular CSS CI/CD Data Analysis REST APIs
+189.6648972126846,Karim,Ayadi,Frontend Developer,"Data Analysis, TypeScript, Express, AWS, SQL",Frontend Developer Data Analysis TypeScript Express AWS SQL
+187.37161465845153,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+57.153623303508425,Asma,Ayadi,Full Stack Developer,"Data Analysis, React, JavaScript, MongoDB, CI/CD, Linux",Full Stack Developer Data Analysis React JavaScript MongoDB CI/CD Linux
+25.055745474032456,Sami,Masmoudi,Full Stack Developer,"REST APIs, Node.js, Python, JavaScript, MongoDB, Angular",Full Stack Developer REST APIs Node.js Python JavaScript MongoDB Angular
+21.26595597399984,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+155.73525416975576,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+26.980360734854777,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+125.92500833373438,Anis,Haddad,Backend Developer,"Node.js, SQL, AWS, JavaScript",Backend Developer Node.js SQL AWS JavaScript
+122.8702518895877,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+152.58024480670025,Omar,Ben Salah,Data Scientist,"NLP, Linux, React, MongoDB",Data Scientist NLP Linux React MongoDB
+192.9250063775699,Sara,Ben Salah,Frontend Developer,"CSS, REST APIs, Python, SQL, TypeScript, Angular, Express",Frontend Developer CSS REST APIs Python SQL TypeScript Angular Express
+163.19437157637233,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+161.35921068175972,Sara,Bouazizi,Data Scientist,"Docker, Linux, React, CI/CD, TypeScript, JavaScript",Data Scientist Docker Linux React CI/CD TypeScript JavaScript
+126.95795489668052,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+156.28129812181496,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+54.07274867496591,Asma,Ayadi,Full Stack Developer,"Data Analysis, React, JavaScript, MongoDB, CI/CD, Linux",Full Stack Developer Data Analysis React JavaScript MongoDB CI/CD Linux
+38.59152949475417,Yassine,Bouazizi,Full Stack Developer,"NLP, Node.js, HTML, Docker, Python, SQL, JavaScript",Full Stack Developer NLP Node.js HTML Docker Python SQL JavaScript
+0.12487914676327172,Sara,Kacem,Full Stack Developer,"HTML, Docker, Node.js, Linux, CI/CD, Angular",Full Stack Developer HTML Docker Node.js Linux CI/CD Angular
+94.59500284458106,Omar,Haddad,Frontend Developer,"HTML, CSS, MongoDB, Machine Learning, AWS",Frontend Developer HTML CSS MongoDB Machine Learning AWS
+197.91213537696655,Ali,Masmoudi,DevOps Engineer,"SQL, TypeScript, Data Analysis, CSS, NLP, Linux",DevOps Engineer SQL TypeScript Data Analysis CSS NLP Linux
+101.11918006119912,Asma,Jouini,Frontend Developer,"SQL, Python, CSS, AWS",Frontend Developer SQL Python CSS AWS
+35.55882828228562,Yassine,Bouazizi,Full Stack Developer,"NLP, Node.js, HTML, Docker, Python, SQL, JavaScript",Full Stack Developer NLP Node.js HTML Docker Python SQL JavaScript
+13.993906940959706,Amira,Haddad,Backend Developer,"Angular, MongoDB, AWS, CI/CD, NLP, SQL, Data Analysis",Backend Developer Angular MongoDB AWS CI/CD NLP SQL Data Analysis
+14.861282645035315,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+24.527214076731262,Asma,Trabelsi,DevOps Engineer,"SQL, AWS, Python, React",DevOps Engineer SQL AWS Python React
+54.40789795943934,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+11.131689143341728,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+129.47086734947402,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+197.47096606846605,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+15.330515818504331,Ali,Ayadi,Data Scientist,"JavaScript, MongoDB, AWS, Angular, CI/CD",Data Scientist JavaScript MongoDB AWS Angular CI/CD
+62.257971047550114,Ines,Masmoudi,Frontend Developer,"SQL, Python, Data Analysis, MongoDB, REST APIs, HTML, AWS",Frontend Developer SQL Python Data Analysis MongoDB REST APIs HTML AWS
+78.9507212082342,Rim,Masmoudi,Data Scientist,"Python, Node.js, React, CI/CD",Data Scientist Python Node.js React CI/CD
+121.48407504003498,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+147.7840938468789,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+164.65251044502594,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+89.26142831764243,Houssem,Trabelsi,Frontend Developer,"Linux, NLP, Express, SQL, CI/CD, REST APIs, Data Analysis",Frontend Developer Linux NLP Express SQL CI/CD REST APIs Data Analysis
+151.47443389729452,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+131.78608363023406,Wael,Bouazizi,Full Stack Developer,"REST APIs, HTML, Linux, Node.js, Docker, SQL, CI/CD",Full Stack Developer REST APIs HTML Linux Node.js Docker SQL CI/CD
+-0.056095168706114196,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+69.31231469652676,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+118.85639291205727,Nour,Ben Salah,Full Stack Developer,"JavaScript, Node.js, SQL, Machine Learning, AWS",Full Stack Developer JavaScript Node.js SQL Machine Learning AWS
+100.16491587890178,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+160.39130704543567,Nour,Trabelsi,Backend Developer,"NLP, Express, Machine Learning, MongoDB",Backend Developer NLP Express Machine Learning MongoDB
+175.51993809836486,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+160.82366341887217,Lina,Kacem,Data Scientist,"NLP, JavaScript, HTML, Machine Learning, Linux, SQL, React",Data Scientist NLP JavaScript HTML Machine Learning Linux SQL React
+93.23314015531584,Ali,Mejri,Full Stack Developer,"React, Angular, REST APIs, CSS, JavaScript, Python",Full Stack Developer React Angular REST APIs CSS JavaScript Python
+171.90846013315098,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+142.07320623938853,Ahmed,Gharbi,Frontend Developer,"HTML, REST APIs, SQL, JavaScript, Angular",Frontend Developer HTML REST APIs SQL JavaScript Angular
+185.50463663580857,Omar,Mejri,Backend Developer,"Machine Learning, SQL, HTML, AWS, NLP, MongoDB",Backend Developer Machine Learning SQL HTML AWS NLP MongoDB
+104.14858723360724,Meriem,Bouazizi,Data Scientist,"HTML, React, Docker, CI/CD, SQL, Machine Learning, MongoDB",Data Scientist HTML React Docker CI/CD SQL Machine Learning MongoDB
+8.254933680841049,Yassine,Ben Salah,Full Stack Developer,"REST APIs, Angular, JavaScript, HTML, MongoDB, Python",Full Stack Developer REST APIs Angular JavaScript HTML MongoDB Python
+130.44610311768938,Houssem,Bouazizi,Frontend Developer,"MongoDB, Node.js, Express, TypeScript, REST APIs",Frontend Developer MongoDB Node.js Express TypeScript REST APIs
+30.075224664186127,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+49.91562018099822,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+152.7627113547021,Omar,Ben Salah,Data Scientist,"NLP, Linux, React, MongoDB",Data Scientist NLP Linux React MongoDB
+82.3582120619774,Ali,Ayadi,Data Scientist,"CSS, Data Analysis, Python, MongoDB",Data Scientist CSS Data Analysis Python MongoDB
+181.17620345992276,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+50.20308799204801,Sami,Ben Salah,Backend Developer,"Data Analysis, React, HTML, NLP, CI/CD, Angular, SQL",Backend Developer Data Analysis React HTML NLP CI/CD Angular SQL
+132.50778848096508,Houssem,Ayadi,DevOps Engineer,"TypeScript, SQL, Machine Learning, React, CI/CD, Linux",DevOps Engineer TypeScript SQL Machine Learning React CI/CD Linux
+51.58320997173401,Asma,Ayadi,Full Stack Developer,"Data Analysis, React, JavaScript, MongoDB, CI/CD, Linux",Full Stack Developer Data Analysis React JavaScript MongoDB CI/CD Linux
+33.68422966964849,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+111.79236544967414,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+174.06478015501784,Nour,Jouini,Full Stack Developer,"Angular, SQL, JavaScript, Machine Learning, React, CI/CD",Full Stack Developer Angular SQL JavaScript Machine Learning React CI/CD
+146.8327590755419,Ali,Gharbi,Backend Developer,"REST APIs, Angular, Docker, CSS, MongoDB, SQL, Python",Backend Developer REST APIs Angular Docker CSS MongoDB SQL Python
+123.77849035204757,Nour,Ben Salah,Full Stack Developer,"JavaScript, Node.js, SQL, Machine Learning, AWS",Full Stack Developer JavaScript Node.js SQL Machine Learning AWS
+126.70193713971837,Sara,Jouini,Data Scientist,"Angular, Data Analysis, REST APIs, JavaScript",Data Scientist Angular Data Analysis REST APIs JavaScript
+8.371715051179851,Rim,Ayadi,Full Stack Developer,"Python, CSS, Linux, React, Node.js",Full Stack Developer Python CSS Linux React Node.js
+6.577490030080818,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+29.808370262713026,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+13.323184979505669,Ikram,Masmoudi,DevOps Engineer,"JavaScript, Express, Node.js, TypeScript",DevOps Engineer JavaScript Express Node.js TypeScript
+82.03041117961013,Karim,Ben Salah,Frontend Developer,"Node.js, CSS, TypeScript, MongoDB, NLP, CI/CD, React",Frontend Developer Node.js CSS TypeScript MongoDB NLP CI/CD React
+119.13048837427043,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+141.80138460919574,Ikram,Kacem,DevOps Engineer,"React, SQL, MongoDB, Python",DevOps Engineer React SQL MongoDB Python
+144.29990989381787,Karim,Bouazizi,Full Stack Developer,"REST APIs, AWS, JavaScript, Data Analysis",Full Stack Developer REST APIs AWS JavaScript Data Analysis
+48.285288780321665,Yasmine,Trabelsi,Data Scientist,"CI/CD, MongoDB, Python, Docker, AWS, SQL",Data Scientist CI/CD MongoDB Python Docker AWS SQL
+149.00761590629722,Yasmine,Bouazizi,Backend Developer,"Docker, Linux, HTML, JavaScript, CSS, Express",Backend Developer Docker Linux HTML JavaScript CSS Express
+29.347877504860204,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+30.67566260618062,Rim,Jouini,Backend Developer,"MongoDB, AWS, Angular, Python, Machine Learning, NLP, CI/CD",Backend Developer MongoDB AWS Angular Python Machine Learning NLP CI/CD
+174.2689972632953,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+176.72837146926636,Meriem,Mejri,Data Scientist,"Linux, Python, HTML, CI/CD, Data Analysis, Angular, AWS",Data Scientist Linux Python HTML CI/CD Data Analysis Angular AWS
+60.194458178965256,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+58.2424804399359,Nour,Gharbi,Backend Developer,"CI/CD, NLP, TypeScript, Machine Learning",Backend Developer CI/CD NLP TypeScript Machine Learning
+6.786719734837823,Sara,Kacem,Full Stack Developer,"HTML, Docker, Node.js, Linux, CI/CD, Angular",Full Stack Developer HTML Docker Node.js Linux CI/CD Angular
+103.00699544473142,Ahmed,Kacem,Data Scientist,"CSS, React, REST APIs, Python, Data Analysis, Angular, Linux",Data Scientist CSS React REST APIs Python Data Analysis Angular Linux
+149.53213352995675,Yasmine,Ben Salah,Full Stack Developer,"AWS, REST APIs, TypeScript, CSS, Data Analysis, SQL",Full Stack Developer AWS REST APIs TypeScript CSS Data Analysis SQL
+60.206997106214345,Amira,Mejri,DevOps Engineer,"Node.js, Python, Linux, Machine Learning, Express, HTML, Docker",DevOps Engineer Node.js Python Linux Machine Learning Express HTML Docker
+144.80423991202983,Wael,Gharbi,Full Stack Developer,"JavaScript, TypeScript, Linux, HTML, NLP",Full Stack Developer JavaScript TypeScript Linux HTML NLP
+111.99054562959044,Yasmine,Bouazizi,DevOps Engineer,"HTML, Docker, NLP, SQL",DevOps Engineer HTML Docker NLP SQL
+198.02526282559342,Yassine,Trabelsi,Frontend Developer,"AWS, HTML, Data Analysis, TypeScript, SQL, CI/CD, Angular",Frontend Developer AWS HTML Data Analysis TypeScript SQL CI/CD Angular
+198.3988722031425,Yassine,Trabelsi,Frontend Developer,"AWS, HTML, Data Analysis, TypeScript, SQL, CI/CD, Angular",Frontend Developer AWS HTML Data Analysis TypeScript SQL CI/CD Angular
+79.16415326371366,Anis,Kacem,Frontend Developer,"Linux, JavaScript, Data Analysis, MongoDB",Frontend Developer Linux JavaScript Data Analysis MongoDB
+28.462705925722517,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+5.644468613237671,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+78.69653190534852,Lina,Masmoudi,Data Scientist,"CI/CD, NLP, React, MongoDB, JavaScript",Data Scientist CI/CD NLP React MongoDB JavaScript
+186.58198567147392,Ikram,Trabelsi,Full Stack Developer,"JavaScript, TypeScript, NLP, Linux, AWS, CI/CD, Node.js",Full Stack Developer JavaScript TypeScript NLP Linux AWS CI/CD Node.js
+89.96191347241276,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+77.55196721166061,Rim,Kacem,Full Stack Developer,"HTML, Linux, REST APIs, Machine Learning, Express, Angular",Full Stack Developer HTML Linux REST APIs Machine Learning Express Angular
+155.69199957829395,Karim,Kacem,Full Stack Developer,"MongoDB, Express, NLP, HTML, TypeScript",Full Stack Developer MongoDB Express NLP HTML TypeScript
+92.55092636105432,Anis,Masmoudi,DevOps Engineer,"HTML, CI/CD, TypeScript, Linux, MongoDB",DevOps Engineer HTML CI/CD TypeScript Linux MongoDB
+4.3572527361223266,Rim,Ayadi,Full Stack Developer,"Python, CSS, Linux, React, Node.js",Full Stack Developer Python CSS Linux React Node.js
+121.50554469055993,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+42.418099885796366,Ali,Gharbi,Data Scientist,"SQL, AWS, REST APIs, Linux, Docker, React",Data Scientist SQL AWS REST APIs Linux Docker React
+6.923137728728355,Amira,Haddad,Backend Developer,"Angular, MongoDB, AWS, CI/CD, NLP, SQL, Data Analysis",Backend Developer Angular MongoDB AWS CI/CD NLP SQL Data Analysis
+200.8005525127615,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+28.934001924799684,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+135.83539848436172,Asma,Kacem,Full Stack Developer,"JavaScript, TypeScript, Machine Learning, NLP, HTML",Full Stack Developer JavaScript TypeScript Machine Learning NLP HTML
+52.0778309420382,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+58.60203606134882,Amira,Trabelsi,Full Stack Developer,"MongoDB, Python, Machine Learning, HTML, AWS, Docker, TypeScript",Full Stack Developer MongoDB Python Machine Learning HTML AWS Docker TypeScript
+160.84213740504265,Rim,Gharbi,Frontend Developer,"AWS, Docker, Machine Learning, Linux, Node.js",Frontend Developer AWS Docker Machine Learning Linux Node.js
+21.180521460215513,Sami,Kacem,DevOps Engineer,"Express, Data Analysis, Python, Node.js, AWS, Docker",DevOps Engineer Express Data Analysis Python Node.js AWS Docker
+115.85942133742539,Asma,Jouini,Data Scientist,"AWS, CSS, Angular, SQL, Linux, Machine Learning",Data Scientist AWS CSS Angular SQL Linux Machine Learning
+109.6424882390969,Ahmed,Kacem,Data Scientist,"Docker, Node.js, Python, Machine Learning, TypeScript, Data Analysis",Data Scientist Docker Node.js Python Machine Learning TypeScript Data Analysis
+139.53883960532275,Sami,Kacem,Frontend Developer,"NLP, CI/CD, SQL, Docker",Frontend Developer NLP CI/CD SQL Docker
+120.62848172153149,Omar,Ayadi,DevOps Engineer,"TypeScript, Angular, Docker, HTML, JavaScript, Linux, NLP",DevOps Engineer TypeScript Angular Docker HTML JavaScript Linux NLP
+26.010500382276565,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+87.52219885049537,Mohamed,Trabelsi,DevOps Engineer,"React, Angular, Python, Express",DevOps Engineer React Angular Python Express
+95.64538778421696,Yasmine,Ayadi,DevOps Engineer,"NLP, MongoDB, CSS, Express, Node.js, AWS, REST APIs",DevOps Engineer NLP MongoDB CSS Express Node.js AWS REST APIs
+168.67224686844986,Nour,Masmoudi,Data Scientist,"Machine Learning, Python, MongoDB, Docker, JavaScript, AWS",Data Scientist Machine Learning Python MongoDB Docker JavaScript AWS
+134.06408058572896,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+0.3210534924886319,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+113.4196157753797,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+65.43112318554795,Anis,Kacem,Data Scientist,"SQL, CI/CD, HTML, JavaScript, CSS, REST APIs, TypeScript",Data Scientist SQL CI/CD HTML JavaScript CSS REST APIs TypeScript
+151.45608055557562,Ali,Gharbi,Backend Developer,"REST APIs, Angular, Docker, CSS, MongoDB, SQL, Python",Backend Developer REST APIs Angular Docker CSS MongoDB SQL Python
+178.982423542191,Lina,Ben Salah,Data Scientist,"TypeScript, Angular, CI/CD, Node.js, JavaScript",Data Scientist TypeScript Angular CI/CD Node.js JavaScript
+104.5158958036737,Ahmed,Kacem,Data Scientist,"Docker, Node.js, Python, Machine Learning, TypeScript, Data Analysis",Data Scientist Docker Node.js Python Machine Learning TypeScript Data Analysis
+120.42528347305401,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+146.2963570451678,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+35.9119208497151,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+87.02579515489555,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+64.58960926812999,Karim,Kacem,Frontend Developer,"REST APIs, Docker, Machine Learning, Node.js, TypeScript, React, HTML",Frontend Developer REST APIs Docker Machine Learning Node.js TypeScript React HTML
+170.98205301144884,Yasmine,Ayadi,Backend Developer,"Machine Learning, Express, MongoDB, SQL",Backend Developer Machine Learning Express MongoDB SQL
+197.44547485187124,Ikram,Trabelsi,DevOps Engineer,"SQL, CSS, Data Analysis, React, MongoDB, Docker, JavaScript",DevOps Engineer SQL CSS Data Analysis React MongoDB Docker JavaScript
+19.125138507672542,Ali,Ayadi,Data Scientist,"JavaScript, MongoDB, AWS, Angular, CI/CD",Data Scientist JavaScript MongoDB AWS Angular CI/CD
+58.97489289117132,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+160.13716170018674,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+171.4839968145412,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+134.30173566646866,Meriem,Masmoudi,Full Stack Developer,"MongoDB, Docker, SQL, HTML",Full Stack Developer MongoDB Docker SQL HTML
+104.91154414091649,Ahmed,Kacem,Data Scientist,"Docker, Node.js, Python, Machine Learning, TypeScript, Data Analysis",Data Scientist Docker Node.js Python Machine Learning TypeScript Data Analysis
+157.83993349759896,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+141.52786969867995,Karim,Bouazizi,Full Stack Developer,"REST APIs, AWS, JavaScript, Data Analysis",Full Stack Developer REST APIs AWS JavaScript Data Analysis
+23.292871639357678,Anis,Trabelsi,Backend Developer,"REST APIs, Docker, AWS, MongoDB, Python",Backend Developer REST APIs Docker AWS MongoDB Python
+136.76968208567877,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+26.768791596478906,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+147.08916716446473,Yasmine,Ben Salah,Full Stack Developer,"AWS, REST APIs, TypeScript, CSS, Data Analysis, SQL",Full Stack Developer AWS REST APIs TypeScript CSS Data Analysis SQL
+125.0014330914555,Anis,Haddad,Backend Developer,"Node.js, SQL, AWS, JavaScript",Backend Developer Node.js SQL AWS JavaScript
+119.91202402803988,Houssem,Bouazizi,Frontend Developer,"MongoDB, Node.js, Express, TypeScript, REST APIs",Frontend Developer MongoDB Node.js Express TypeScript REST APIs
+47.647980891018264,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+77.43756020227275,Rim,Bouazizi,Frontend Developer,"Data Analysis, Python, REST APIs, TypeScript, Express, JavaScript, SQL",Frontend Developer Data Analysis Python REST APIs TypeScript Express JavaScript SQL
+81.3481573855937,Lina,Masmoudi,Data Scientist,"CI/CD, NLP, React, MongoDB, JavaScript",Data Scientist CI/CD NLP React MongoDB JavaScript
+78.18133045977892,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+147.23305884099378,Ahmed,Gharbi,Frontend Developer,"HTML, REST APIs, SQL, JavaScript, Angular",Frontend Developer HTML REST APIs SQL JavaScript Angular
+154.40869823036903,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+16.73458608569304,Sami,Kacem,DevOps Engineer,"Express, Data Analysis, Python, Node.js, AWS, Docker",DevOps Engineer Express Data Analysis Python Node.js AWS Docker
+173.92408855890497,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+73.9258092193897,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+155.54038243394936,Sami,Ben Salah,Full Stack Developer,"Data Analysis, Linux, JavaScript, CSS",Full Stack Developer Data Analysis Linux JavaScript CSS
+138.60534080953127,Anis,Gharbi,Backend Developer,"Python, Angular, Machine Learning, Data Analysis, Docker, AWS, React",Backend Developer Python Angular Machine Learning Data Analysis Docker AWS React
+100.21896031252832,Rim,Ayadi,DevOps Engineer,"NLP, Linux, Docker, MongoDB, HTML, Express",DevOps Engineer NLP Linux Docker MongoDB HTML Express
+79.695681972315,Anis,Kacem,Frontend Developer,"Linux, JavaScript, Data Analysis, MongoDB",Frontend Developer Linux JavaScript Data Analysis MongoDB
+6.592440728881124,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+144.5568250860219,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+18.640381323207592,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+160.0695225066833,Nour,Trabelsi,Backend Developer,"NLP, Express, Machine Learning, MongoDB",Backend Developer NLP Express Machine Learning MongoDB
+76.00555481218979,Ali,Haddad,Full Stack Developer,"MongoDB, React, AWS, JavaScript",Full Stack Developer MongoDB React AWS JavaScript
+131.6021066403229,Amira,Haddad,Frontend Developer,"Angular, CSS, CI/CD, Data Analysis, REST APIs",Frontend Developer Angular CSS CI/CD Data Analysis REST APIs
+8.254554789133506,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+162.56317857597756,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+19.869744169859164,Ali,Ayadi,Data Scientist,"JavaScript, MongoDB, AWS, Angular, CI/CD",Data Scientist JavaScript MongoDB AWS Angular CI/CD
+8.612933186714127,Amira,Haddad,Backend Developer,"Angular, MongoDB, AWS, CI/CD, NLP, SQL, Data Analysis",Backend Developer Angular MongoDB AWS CI/CD NLP SQL Data Analysis
+183.93094840271948,Wael,Ayadi,Data Scientist,"Node.js, HTML, NLP, Docker, AWS",Data Scientist Node.js HTML NLP Docker AWS
+174.65762296741622,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+37.14424836747054,Nour,Ayadi,Data Scientist,"Node.js, JavaScript, Docker, REST APIs, NLP, Angular, CSS",Data Scientist Node.js JavaScript Docker REST APIs NLP Angular CSS
+180.7258122959897,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+180.30318026725263,Mohamed,Masmoudi,Frontend Developer,"CI/CD, AWS, Angular, REST APIs, SQL, Python",Frontend Developer CI/CD AWS Angular REST APIs SQL Python
+126.14827700749042,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+31.191652523874737,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+121.92141699545003,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+154.1588127835505,Sami,Ben Salah,Full Stack Developer,"Data Analysis, Linux, JavaScript, CSS",Full Stack Developer Data Analysis Linux JavaScript CSS
+77.2222413262337,Lina,Masmoudi,Data Scientist,"CI/CD, NLP, React, MongoDB, JavaScript",Data Scientist CI/CD NLP React MongoDB JavaScript
+34.27829551488306,Asma,Masmoudi,Data Scientist,"Express, SQL, Docker, JavaScript, Node.js, AWS, Linux",Data Scientist Express SQL Docker JavaScript Node.js AWS Linux
+46.647343507446294,Ali,Ben Salah,Data Scientist,"Linux, NLP, Python, MongoDB, JavaScript, REST APIs, AWS",Data Scientist Linux NLP Python MongoDB JavaScript REST APIs AWS
+107.87455223660552,Meriem,Jouini,Data Scientist,"TypeScript, AWS, Express, REST APIs",Data Scientist TypeScript AWS Express REST APIs
+176.97231835595338,Karim,Gharbi,Data Scientist,"CI/CD, AWS, Linux, React",Data Scientist CI/CD AWS Linux React
+9.536715931184734,Yassine,Ben Salah,Full Stack Developer,"REST APIs, Angular, JavaScript, HTML, MongoDB, Python",Full Stack Developer REST APIs Angular JavaScript HTML MongoDB Python
+104.15616364637718,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+126.38023025659166,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+89.92713737509108,Ines,Gharbi,Frontend Developer,"JavaScript, CSS, NLP, Node.js",Frontend Developer JavaScript CSS NLP Node.js
+27.943079809033094,Ines,Trabelsi,DevOps Engineer,"CSS, AWS, MongoDB, REST APIs, Machine Learning, React, Linux",DevOps Engineer CSS AWS MongoDB REST APIs Machine Learning React Linux
+57.14863123942312,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+19.294606797519396,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+75.04291384370377,Rim,Masmoudi,Data Scientist,"Python, Node.js, React, CI/CD",Data Scientist Python Node.js React CI/CD
+195.13767499937595,Sara,Ben Salah,Frontend Developer,"CSS, REST APIs, Python, SQL, TypeScript, Angular, Express",Frontend Developer CSS REST APIs Python SQL TypeScript Angular Express
+195.28417268654772,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript
+142.9196456812364,Wael,Gharbi,Full Stack Developer,"JavaScript, TypeScript, Linux, HTML, NLP",Full Stack Developer JavaScript TypeScript Linux HTML NLP
+7.543914377662153,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+131.31278475296787,Yasmine,Ayadi,Backend Developer,"HTML, CI/CD, Express, AWS, Python",Backend Developer HTML CI/CD Express AWS Python
+170.7408965868898,Nour,Masmoudi,Backend Developer,"SQL, NLP, React, AWS",Backend Developer SQL NLP React AWS
+165.98458839753678,Meriem,Masmoudi,Data Scientist,"Docker, Express, AWS, CSS, TypeScript",Data Scientist Docker Express AWS CSS TypeScript
+45.07537653484184,Sami,Ben Salah,Backend Developer,"Data Analysis, React, HTML, NLP, CI/CD, Angular, SQL",Backend Developer Data Analysis React HTML NLP CI/CD Angular SQL
+49.494374708961345,Mohamed,Jouini,DevOps Engineer,"REST APIs, Docker, HTML, CI/CD",DevOps Engineer REST APIs Docker HTML CI/CD
+129.41448135561302,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+100.21536603373222,Mohamed,Trabelsi,DevOps Engineer,"AWS, TypeScript, Node.js, React, Express",DevOps Engineer AWS TypeScript Node.js React Express
+52.71314814294024,Amira,Mejri,DevOps Engineer,"Node.js, Python, Linux, Machine Learning, Express, HTML, Docker",DevOps Engineer Node.js Python Linux Machine Learning Express HTML Docker
+19.697356913445773,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+98.96819206866212,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+131.388195220993,Ines,Trabelsi,Frontend Developer,"Machine Learning, Data Analysis, REST APIs, NLP, TypeScript, Docker, JavaScript",Frontend Developer Machine Learning Data Analysis REST APIs NLP TypeScript Docker JavaScript
+191.24346603898553,Sami,Jouini,Backend Developer,"Angular, Data Analysis, CSS, JavaScript, SQL, Express",Backend Developer Angular Data Analysis CSS JavaScript SQL Express
+125.94747909181207,Houssem,Bouazizi,Frontend Developer,"MongoDB, Node.js, Express, TypeScript, REST APIs",Frontend Developer MongoDB Node.js Express TypeScript REST APIs
+162.31647142595398,Sami,Gharbi,Data Scientist,"NLP, Angular, Data Analysis, SQL, REST APIs, JavaScript, Linux",Data Scientist NLP Angular Data Analysis SQL REST APIs JavaScript Linux
+86.8762431066097,Sami,Masmoudi,Frontend Developer,"TypeScript, Docker, MongoDB, HTML, CI/CD, Data Analysis",Frontend Developer TypeScript Docker MongoDB HTML CI/CD Data Analysis
+5.9570134083112025,Yasmine,Gharbi,DevOps Engineer,"Python, Machine Learning, NLP, Angular, React",DevOps Engineer Python Machine Learning NLP Angular React
+25.487138978782404,Rim,Masmoudi,Data Scientist,"CSS, Linux, MongoDB, Docker, REST APIs, Node.js",Data Scientist CSS Linux MongoDB Docker REST APIs Node.js
+148.57353119373903,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+66.04455129129403,Karim,Kacem,Frontend Developer,"REST APIs, Docker, Machine Learning, Node.js, TypeScript, React, HTML",Frontend Developer REST APIs Docker Machine Learning Node.js TypeScript React HTML
+51.235079159419584,Lina,Haddad,DevOps Engineer,"Python, TypeScript, MongoDB, JavaScript",DevOps Engineer Python TypeScript MongoDB JavaScript
+51.19884468871626,Lina,Haddad,DevOps Engineer,"Python, TypeScript, MongoDB, JavaScript",DevOps Engineer Python TypeScript MongoDB JavaScript
+71.05308124845243,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+181.03161863267727,Sami,Haddad,Full Stack Developer,"AWS, Python, HTML, TypeScript, Machine Learning",Full Stack Developer AWS Python HTML TypeScript Machine Learning
+34.553009968382646,Asma,Masmoudi,Data Scientist,"Express, SQL, Docker, JavaScript, Node.js, AWS, Linux",Data Scientist Express SQL Docker JavaScript Node.js AWS Linux
+163.84966058356662,Nour,Trabelsi,Backend Developer,"NLP, Express, Machine Learning, MongoDB",Backend Developer NLP Express Machine Learning MongoDB
+22.817415456365545,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+77.73610427737805,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+81.5531320788518,Karim,Ben Salah,Frontend Developer,"Node.js, CSS, TypeScript, MongoDB, NLP, CI/CD, React",Frontend Developer Node.js CSS TypeScript MongoDB NLP CI/CD React
+92.05749268491797,Houssem,Trabelsi,Frontend Developer,"Linux, NLP, Express, SQL, CI/CD, REST APIs, Data Analysis",Frontend Developer Linux NLP Express SQL CI/CD REST APIs Data Analysis
+29.550549893215894,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+17.352462357985388,Mohamed,Gharbi,Backend Developer,"Data Analysis, Machine Learning, Express, Python, CI/CD",Backend Developer Data Analysis Machine Learning Express Python CI/CD
+27.290516933556518,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+134.5432929173585,Karim,Gharbi,Full Stack Developer,"CSS, Python, Data Analysis, Linux, REST APIs",Full Stack Developer CSS Python Data Analysis Linux REST APIs
+72.51587462025269,Rim,Ayadi,Frontend Developer,"TypeScript, Linux, Node.js, NLP",Frontend Developer TypeScript Linux Node.js NLP
+131.44319014374938,Meriem,Masmoudi,Full Stack Developer,"MongoDB, Docker, SQL, HTML",Full Stack Developer MongoDB Docker SQL HTML
+142.57262650855762,Anis,Gharbi,Backend Developer,"Python, Angular, Machine Learning, Data Analysis, Docker, AWS, React",Backend Developer Python Angular Machine Learning Data Analysis Docker AWS React
+69.8406132076856,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+142.3675224611804,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+23.027245836577304,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+35.252448150087886,Ahmed,Jouini,Full Stack Developer,"Docker, Python, MongoDB, CSS, REST APIs, Angular, CI/CD",Full Stack Developer Docker Python MongoDB CSS REST APIs Angular CI/CD
+9.894382315844462,Yasmine,Gharbi,DevOps Engineer,"Python, Machine Learning, NLP, Angular, React",DevOps Engineer Python Machine Learning NLP Angular React
+103.90204362183857,Karim,Haddad,Data Scientist,"Linux, NLP, Docker, TypeScript, CI/CD, HTML",Data Scientist Linux NLP Docker TypeScript CI/CD HTML
+179.42695624766975,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+29.109413498979304,Sami,Mejri,Backend Developer,"Angular, Data Analysis, Express, TypeScript, REST APIs, Linux, Docker",Backend Developer Angular Data Analysis Express TypeScript REST APIs Linux Docker
+59.09402890959867,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+135.9367025286295,Sami,Kacem,Frontend Developer,"NLP, CI/CD, SQL, Docker",Frontend Developer NLP CI/CD SQL Docker
+99.92561034662162,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+165.65752153511178,Ahmed,Mejri,DevOps Engineer,"AWS, TypeScript, Linux, JavaScript, REST APIs, Data Analysis",DevOps Engineer AWS TypeScript Linux JavaScript REST APIs Data Analysis
+117.78886747955605,Wael,Haddad,DevOps Engineer,"Linux, Node.js, CSS, MongoDB",DevOps Engineer Linux Node.js CSS MongoDB
+152.51348168768047,Omar,Ben Salah,Data Scientist,"NLP, Linux, React, MongoDB",Data Scientist NLP Linux React MongoDB
+55.067161460907876,Ahmed,Jouini,Data Scientist,"AWS, Data Analysis, JavaScript, Node.js, Docker, REST APIs, HTML",Data Scientist AWS Data Analysis JavaScript Node.js Docker REST APIs HTML
+106.07433962218808,Sami,Mejri,Backend Developer,"CI/CD, NLP, Machine Learning, Python, Node.js, SQL",Backend Developer CI/CD NLP Machine Learning Python Node.js SQL
+7.717161081549285,Yassine,Ben Salah,Full Stack Developer,"REST APIs, Angular, JavaScript, HTML, MongoDB, Python",Full Stack Developer REST APIs Angular JavaScript HTML MongoDB Python
+140.60189210450994,Karim,Ayadi,Frontend Developer,"Node.js, AWS, React, MongoDB, CI/CD, Angular",Frontend Developer Node.js AWS React MongoDB CI/CD Angular
+66.73691229218447,Yasmine,Ayadi,Frontend Developer,"HTML, Angular, CI/CD, Express",Frontend Developer HTML Angular CI/CD Express
+109.01624144156841,Sara,Kacem,Frontend Developer,"Node.js, SQL, JavaScript, React",Frontend Developer Node.js SQL JavaScript React
+18.598061472875173,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+62.97999404661781,Asma,Masmoudi,Backend Developer,"HTML, AWS, Docker, Node.js",Backend Developer HTML AWS Docker Node.js
+181.0494757430532,Sami,Haddad,Full Stack Developer,"AWS, Python, HTML, TypeScript, Machine Learning",Full Stack Developer AWS Python HTML TypeScript Machine Learning
+100.15153464643345,Amira,Haddad,Full Stack Developer,"REST APIs, JavaScript, Data Analysis, SQL, Linux",Full Stack Developer REST APIs JavaScript Data Analysis SQL Linux
+116.48604036236522,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+150.5791358239923,Anis,Kacem,Data Scientist,"REST APIs, Python, JavaScript, Machine Learning",Data Scientist REST APIs Python JavaScript Machine Learning
+49.33574909396447,Lina,Trabelsi,Backend Developer,"SQL, React, REST APIs, CI/CD, Express",Backend Developer SQL React REST APIs CI/CD Express
+203.2263037035597,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+42.50186784258276,Lina,Trabelsi,Backend Developer,"SQL, React, REST APIs, CI/CD, Express",Backend Developer SQL React REST APIs CI/CD Express
+129.07137318179065,Karim,Gharbi,Full Stack Developer,"CSS, Python, Data Analysis, Linux, REST APIs",Full Stack Developer CSS Python Data Analysis Linux REST APIs
+21.252895120367214,Anis,Trabelsi,Backend Developer,"REST APIs, Docker, AWS, MongoDB, Python",Backend Developer REST APIs Docker AWS MongoDB Python
+24.40773589281552,Omar,Ayadi,DevOps Engineer,"Data Analysis, JavaScript, CI/CD, Docker, Express",DevOps Engineer Data Analysis JavaScript CI/CD Docker Express
+193.02532219040194,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript
+179.19833993200118,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+130.79568317991914,Wael,Bouazizi,Full Stack Developer,"REST APIs, HTML, Linux, Node.js, Docker, SQL, CI/CD",Full Stack Developer REST APIs HTML Linux Node.js Docker SQL CI/CD
+113.6290375247857,Houssem,Mejri,Frontend Developer,"Angular, TypeScript, React, Linux",Frontend Developer Angular TypeScript React Linux
+42.98636576465739,Ali,Ben Salah,Data Scientist,"Linux, NLP, Python, MongoDB, JavaScript, REST APIs, AWS",Data Scientist Linux NLP Python MongoDB JavaScript REST APIs AWS
+144.45548311441863,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+182.28435366310845,Amira,Gharbi,Data Scientist,"MongoDB, React, NLP, Linux",Data Scientist MongoDB React NLP Linux
+39.869885380194546,Yassine,Bouazizi,Full Stack Developer,"NLP, Node.js, HTML, Docker, Python, SQL, JavaScript",Full Stack Developer NLP Node.js HTML Docker Python SQL JavaScript
+163.09249555243468,Meriem,Masmoudi,Data Scientist,"Docker, Express, AWS, CSS, TypeScript",Data Scientist Docker Express AWS CSS TypeScript
+189.2117302174506,Wael,Ben Salah,Frontend Developer,"JavaScript, REST APIs, Linux, Express",Frontend Developer JavaScript REST APIs Linux Express
+148.58993309539466,Rim,Kacem,Backend Developer,"JavaScript, CI/CD, Linux, REST APIs, React, MongoDB, CSS",Backend Developer JavaScript CI/CD Linux REST APIs React MongoDB CSS
+17.104007883273294,Sami,Kacem,DevOps Engineer,"Express, Data Analysis, Python, Node.js, AWS, Docker",DevOps Engineer Express Data Analysis Python Node.js AWS Docker
+185.04091797615067,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+174.44557930700347,Lina,Ben Salah,Data Scientist,"TypeScript, Angular, CI/CD, Node.js, JavaScript",Data Scientist TypeScript Angular CI/CD Node.js JavaScript
+122.8554493489678,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+74.4551743506322,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+175.37661230137257,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+99.57797811285143,Rim,Ayadi,DevOps Engineer,"NLP, Linux, Docker, MongoDB, HTML, Express",DevOps Engineer NLP Linux Docker MongoDB HTML Express
+198.0725715099227,Ali,Jouini,Frontend Developer,"Node.js, Python, Docker, SQL, CSS",Frontend Developer Node.js Python Docker SQL CSS
+21.62009698306956,Karim,Ayadi,Full Stack Developer,"Docker, NLP, Data Analysis, TypeScript, React, Python",Full Stack Developer Docker NLP Data Analysis TypeScript React Python
+174.10211223984732,Nour,Ayadi,Backend Developer,"Angular, NLP, React, JavaScript, Python",Backend Developer Angular NLP React JavaScript Python
+148.06887511895792,Yasmine,Mejri,Frontend Developer,"React, HTML, REST APIs, Node.js, Angular, Express",Frontend Developer React HTML REST APIs Node.js Angular Express
+26.132555024014003,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+175.90914252711576,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+21.314158124024008,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+180.38860285436738,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+68.33794968164257,Asma,Masmoudi,Backend Developer,"HTML, AWS, Docker, Node.js",Backend Developer HTML AWS Docker Node.js
+71.61334979093441,Yassine,Mejri,Frontend Developer,"AWS, React, Angular, REST APIs",Frontend Developer AWS React Angular REST APIs
+71.48046251930364,Karim,Bouazizi,Backend Developer,"Node.js, REST APIs, Machine Learning, JavaScript, Linux, HTML, TypeScript",Backend Developer Node.js REST APIs Machine Learning JavaScript Linux HTML TypeScript
+25.154094457158084,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+98.51210469061766,Ahmed,Gharbi,DevOps Engineer,"JavaScript, Node.js, NLP, CI/CD, React, Python",DevOps Engineer JavaScript Node.js NLP CI/CD React Python
+83.99654597215739,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+134.82438031177142,Sara,Trabelsi,DevOps Engineer,"JavaScript, Machine Learning, REST APIs, MongoDB, AWS, Express, SQL",DevOps Engineer JavaScript Machine Learning REST APIs MongoDB AWS Express SQL
+137.20921336771826,Mohamed,Bouazizi,DevOps Engineer,"NLP, Python, HTML, Linux",DevOps Engineer NLP Python HTML Linux
+151.92034447024622,Karim,Haddad,Data Scientist,"Python, CSS, NLP, HTML, Linux, TypeScript, AWS",Data Scientist Python CSS NLP HTML Linux TypeScript AWS
+43.164455226484996,Ahmed,Trabelsi,DevOps Engineer,"Angular, CSS, Python, Express, Data Analysis, REST APIs",DevOps Engineer Angular CSS Python Express Data Analysis REST APIs
+-0.7788504016807836,Lina,Trabelsi,Frontend Developer,"CI/CD, REST APIs, MongoDB, Data Analysis, Machine Learning, NLP",Frontend Developer CI/CD REST APIs MongoDB Data Analysis Machine Learning NLP
+16.481611242342595,Ali,Ayadi,Data Scientist,"JavaScript, MongoDB, AWS, Angular, CI/CD",Data Scientist JavaScript MongoDB AWS Angular CI/CD
+68.018793581799,Amira,Trabelsi,Full Stack Developer,"MongoDB, Python, Machine Learning, HTML, AWS, Docker, TypeScript",Full Stack Developer MongoDB Python Machine Learning HTML AWS Docker TypeScript
+109.6434285757341,Karim,Haddad,Data Scientist,"Linux, NLP, Docker, TypeScript, CI/CD, HTML",Data Scientist Linux NLP Docker TypeScript CI/CD HTML
+185.8849499270991,Meriem,Mejri,Data Scientist,"Linux, Python, HTML, CI/CD, Data Analysis, Angular, AWS",Data Scientist Linux Python HTML CI/CD Data Analysis Angular AWS
+71.28716852950835,Omar,Jouini,Data Scientist,"Data Analysis, React, HTML, SQL",Data Scientist Data Analysis React HTML SQL
+176.09284352588188,Asma,Gharbi,DevOps Engineer,"Linux, MongoDB, Machine Learning, SQL",DevOps Engineer Linux MongoDB Machine Learning SQL
+60.92467658267952,Amira,Trabelsi,Full Stack Developer,"MongoDB, Python, Machine Learning, HTML, AWS, Docker, TypeScript",Full Stack Developer MongoDB Python Machine Learning HTML AWS Docker TypeScript
+187.39331476005634,Mohamed,Mejri,DevOps Engineer,"Linux, Angular, NLP, Python, React, JavaScript, Express",DevOps Engineer Linux Angular NLP Python React JavaScript Express
+109.22542961488618,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+162.7102498965368,Sami,Mejri,DevOps Engineer,"Express, Node.js, CI/CD, Docker",DevOps Engineer Express Node.js CI/CD Docker
+27.215403149538048,Houssem,Masmoudi,Data Scientist,"TypeScript, Machine Learning, NLP, JavaScript, Angular, MongoDB, Node.js",Data Scientist TypeScript Machine Learning NLP JavaScript Angular MongoDB Node.js
+33.24465954604406,Rim,Jouini,Backend Developer,"MongoDB, AWS, Angular, Python, Machine Learning, NLP, CI/CD",Backend Developer MongoDB AWS Angular Python Machine Learning NLP CI/CD
+132.39735724397622,Houssem,Ayadi,DevOps Engineer,"TypeScript, SQL, Machine Learning, React, CI/CD, Linux",DevOps Engineer TypeScript SQL Machine Learning React CI/CD Linux
+10.816643869137193,Omar,Masmoudi,Frontend Developer,"Express, REST APIs, MongoDB, CI/CD, Python, JavaScript, Data Analysis",Frontend Developer Express REST APIs MongoDB CI/CD Python JavaScript Data Analysis
+81.27347838081019,Yasmine,Haddad,Backend Developer,"MongoDB, Python, AWS, Machine Learning, Express",Backend Developer MongoDB Python AWS Machine Learning Express
+132.10177200785395,Meriem,Jouini,DevOps Engineer,"AWS, TypeScript, SQL, NLP, Linux, Docker",DevOps Engineer AWS TypeScript SQL NLP Linux Docker
+183.65486994529368,Wael,Ayadi,Data Scientist,"Node.js, HTML, NLP, Docker, AWS",Data Scientist Node.js HTML NLP Docker AWS
+155.5080723606914,Ikram,Mejri,Backend Developer,"JavaScript, Machine Learning, AWS, Angular",Backend Developer JavaScript Machine Learning AWS Angular
+177.5422852827445,Mohamed,Masmoudi,Frontend Developer,"CI/CD, AWS, Angular, REST APIs, SQL, Python",Frontend Developer CI/CD AWS Angular REST APIs SQL Python
+158.7962562818356,Karim,Ayadi,Frontend Developer,"Data Analysis, MongoDB, Machine Learning, TypeScript, JavaScript, REST APIs",Frontend Developer Data Analysis MongoDB Machine Learning TypeScript JavaScript REST APIs
+66.81447445199964,Asma,Masmoudi,Backend Developer,"HTML, AWS, Docker, Node.js",Backend Developer HTML AWS Docker Node.js
+57.687287739315906,Yassine,Jouini,Frontend Developer,"Docker, Machine Learning, AWS, React",Frontend Developer Docker Machine Learning AWS React
+48.82337314171747,Wael,Masmoudi,Frontend Developer,"Data Analysis, Docker, REST APIs, NLP, Machine Learning",Frontend Developer Data Analysis Docker REST APIs NLP Machine Learning
+109.37357438984313,Omar,Kacem,DevOps Engineer,"Angular, Node.js, JavaScript, Data Analysis, HTML",DevOps Engineer Angular Node.js JavaScript Data Analysis HTML
+89.91035304825733,Wael,Ben Salah,Data Scientist,"NLP, Machine Learning, Express, TypeScript",Data Scientist NLP Machine Learning Express TypeScript
+108.73017852284126,Karim,Haddad,Data Scientist,"Linux, NLP, Docker, TypeScript, CI/CD, HTML",Data Scientist Linux NLP Docker TypeScript CI/CD HTML
+143.5818040638277,Anis,Gharbi,Backend Developer,"Python, Angular, Machine Learning, Data Analysis, Docker, AWS, React",Backend Developer Python Angular Machine Learning Data Analysis Docker AWS React
+74.44798961141544,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+69.54507121305252,Ines,Masmoudi,Frontend Developer,"SQL, Python, Data Analysis, MongoDB, REST APIs, HTML, AWS",Frontend Developer SQL Python Data Analysis MongoDB REST APIs HTML AWS
+96.21401394121891,Omar,Haddad,Frontend Developer,"HTML, CSS, MongoDB, Machine Learning, AWS",Frontend Developer HTML CSS MongoDB Machine Learning AWS
+178.78914782630542,Nour,Masmoudi,Backend Developer,"SQL, NLP, React, AWS",Backend Developer SQL NLP React AWS
+1.9422274108289108,Rim,Ayadi,Full Stack Developer,"Python, CSS, Linux, React, Node.js",Full Stack Developer Python CSS Linux React Node.js
+74.77534482698903,Ali,Haddad,Full Stack Developer,"MongoDB, React, AWS, JavaScript",Full Stack Developer MongoDB React AWS JavaScript
+123.85322703008626,Sara,Jouini,Data Scientist,"Angular, Data Analysis, REST APIs, JavaScript",Data Scientist Angular Data Analysis REST APIs JavaScript
+192.06884630746828,Wael,Ayadi,Data Scientist,"Node.js, HTML, NLP, Docker, AWS",Data Scientist Node.js HTML NLP Docker AWS
+18.86902828252662,Sami,Kacem,DevOps Engineer,"Express, Data Analysis, Python, Node.js, AWS, Docker",DevOps Engineer Express Data Analysis Python Node.js AWS Docker
+24.486173152110766,Rim,Masmoudi,Frontend Developer,"TypeScript, Machine Learning, MongoDB, Docker, AWS, React",Frontend Developer TypeScript Machine Learning MongoDB Docker AWS React
+28.87530971649687,Rim,Haddad,DevOps Engineer,"Python, MongoDB, Angular, HTML, Data Analysis, React",DevOps Engineer Python MongoDB Angular HTML Data Analysis React
+157.56934923456572,Ikram,Mejri,Backend Developer,"JavaScript, Machine Learning, AWS, Angular",Backend Developer JavaScript Machine Learning AWS Angular
+89.24660547062801,Houssem,Trabelsi,Frontend Developer,"Linux, NLP, Express, SQL, CI/CD, REST APIs, Data Analysis",Frontend Developer Linux NLP Express SQL CI/CD REST APIs Data Analysis
+52.009766245853804,Ahmed,Jouini,Data Scientist,"AWS, Data Analysis, JavaScript, Node.js, Docker, REST APIs, HTML",Data Scientist AWS Data Analysis JavaScript Node.js Docker REST APIs HTML
+65.83118622828171,Ines,Masmoudi,Frontend Developer,"SQL, Python, Data Analysis, MongoDB, REST APIs, HTML, AWS",Frontend Developer SQL Python Data Analysis MongoDB REST APIs HTML AWS
+121.24882244482751,Houssem,Bouazizi,Frontend Developer,"MongoDB, Node.js, Express, TypeScript, REST APIs",Frontend Developer MongoDB Node.js Express TypeScript REST APIs
+108.38548310790353,Houssem,Mejri,Frontend Developer,"Angular, TypeScript, React, Linux",Frontend Developer Angular TypeScript React Linux
+125.53515279350644,Houssem,Ayadi,DevOps Engineer,"TypeScript, SQL, Machine Learning, React, CI/CD, Linux",DevOps Engineer TypeScript SQL Machine Learning React CI/CD Linux
+3.7933894549356446,Rim,Ayadi,Full Stack Developer,"Python, CSS, Linux, React, Node.js",Full Stack Developer Python CSS Linux React Node.js
+83.98047464984903,Ahmed,Jouini,Full Stack Developer,"Linux, JavaScript, SQL, Angular, Node.js, TypeScript, Data Analysis",Full Stack Developer Linux JavaScript SQL Angular Node.js TypeScript Data Analysis
+37.41503366516942,Nour,Ayadi,Data Scientist,"Node.js, JavaScript, Docker, REST APIs, NLP, Angular, CSS",Data Scientist Node.js JavaScript Docker REST APIs NLP Angular CSS
+155.0018837163708,Karim,Haddad,Data Scientist,"Python, CSS, NLP, HTML, Linux, TypeScript, AWS",Data Scientist Python CSS NLP HTML Linux TypeScript AWS
+101.6339629748483,Rim,Ayadi,DevOps Engineer,"NLP, Linux, Docker, MongoDB, HTML, Express",DevOps Engineer NLP Linux Docker MongoDB HTML Express
+111.36399139063774,Asma,Gharbi,Frontend Developer,"JavaScript, NLP, SQL, AWS, Docker",Frontend Developer JavaScript NLP SQL AWS Docker
+149.88670386936008,Ali,Gharbi,Backend Developer,"REST APIs, Angular, Docker, CSS, MongoDB, SQL, Python",Backend Developer REST APIs Angular Docker CSS MongoDB SQL Python
+171.10825680427882,Houssem,Haddad,Full Stack Developer,"React, Data Analysis, Linux, Node.js",Full Stack Developer React Data Analysis Linux Node.js
+193.28341946892758,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+87.10842842540225,Lina,Ayadi,Full Stack Developer,"CSS, REST APIs, MongoDB, CI/CD, JavaScript",Full Stack Developer CSS REST APIs MongoDB CI/CD JavaScript
+7.979721501874026,Ikram,Ayadi,Data Scientist,"REST APIs, Python, HTML, AWS, CI/CD, Docker, Linux",Data Scientist REST APIs Python HTML AWS CI/CD Docker Linux
+59.326616679193165,Amira,Mejri,DevOps Engineer,"Node.js, Python, Linux, Machine Learning, Express, HTML, Docker",DevOps Engineer Node.js Python Linux Machine Learning Express HTML Docker
+157.52374077864852,Karim,Ayadi,Frontend Developer,"Data Analysis, MongoDB, Machine Learning, TypeScript, JavaScript, REST APIs",Frontend Developer Data Analysis MongoDB Machine Learning TypeScript JavaScript REST APIs
+122.85925062789843,Mohamed,Ben Salah,Data Scientist,"CSS, HTML, AWS, Express, React, MongoDB, Linux",Data Scientist CSS HTML AWS Express React MongoDB Linux
+70.35461612784492,Yassine,Mejri,Backend Developer,"REST APIs, CI/CD, Angular, Docker",Backend Developer REST APIs CI/CD Angular Docker
+116.44332513052794,Nour,Jouini,Full Stack Developer,"NLP, CSS, React, TypeScript",Full Stack Developer NLP CSS React TypeScript
+163.68109233361554,Asma,Mejri,Data Scientist,"Node.js, CSS, HTML, AWS, Angular, Linux",Data Scientist Node.js CSS HTML AWS Angular Linux
+202.14933352900255,Ines,Ayadi,Frontend Developer,"TypeScript, Data Analysis, Python, HTML, MongoDB, React, Node.js",Frontend Developer TypeScript Data Analysis Python HTML MongoDB React Node.js
+84.39266158143631,Yasmine,Haddad,Backend Developer,"MongoDB, Python, AWS, Machine Learning, Express",Backend Developer MongoDB Python AWS Machine Learning Express
+188.95804097572812,Meriem,Gharbi,Frontend Developer,"REST APIs, Express, CSS, Python, Docker, Node.js, JavaScript",Frontend Developer REST APIs Express CSS Python Docker Node.js JavaScript
+-1.7068693440489446,Ahmed,Masmoudi,Backend Developer,"REST APIs, Machine Learning, Docker, MongoDB, Angular",Backend Developer REST APIs Machine Learning Docker MongoDB Angular
+155.44499402182933,Karim,Kacem,Full Stack Developer,"MongoDB, Express, NLP, HTML, TypeScript",Full Stack Developer MongoDB Express NLP HTML TypeScript
+144.04707392196926,Wael,Gharbi,Full Stack Developer,"JavaScript, TypeScript, Linux, HTML, NLP",Full Stack Developer JavaScript TypeScript Linux HTML NLP
+5.982486896804576,Ines,Ayadi,DevOps Engineer,"JavaScript, Angular, CSS, React, NLP, CI/CD",DevOps Engineer JavaScript Angular CSS React NLP CI/CD
+82.40079145559649,Anis,Kacem,Frontend Developer,"Linux, JavaScript, Data Analysis, MongoDB",Frontend Developer Linux JavaScript Data Analysis MongoDB
+181.21769254542443,Amira,Bouazizi,Data Scientist,"Node.js, Angular, MongoDB, TypeScript, Data Analysis",Data Scientist Node.js Angular MongoDB TypeScript Data Analysis
+182.69150250731138,Sami,Haddad,Full Stack Developer,"AWS, Python, HTML, TypeScript, Machine Learning",Full Stack Developer AWS Python HTML TypeScript Machine Learning
+76.91576421547218,Lina,Ben Salah,Full Stack Developer,"HTML, Docker, Express, Python, Data Analysis, SQL",Full Stack Developer HTML Docker Express Python Data Analysis SQL
+195.6807150734675,Houssem,Bouazizi,Backend Developer,"Machine Learning, Angular, SQL, Linux, AWS, TypeScript",Backend Developer Machine Learning Angular SQL Linux AWS TypeScript

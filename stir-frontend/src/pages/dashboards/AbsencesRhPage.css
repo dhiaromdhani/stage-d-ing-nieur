@@ -1,0 +1,26 @@
+.absences-rh-page { max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+.justif-section, .rapport-section { margin-bottom: 32px; }
+.justif-section h2, .rapport-section h2 {
+    font-family: var(--font-display); font-size: 17px; color: var(--primary); margin-bottom: 14px;
+}
+
+.justif-list { display: flex; flex-direction: column; gap: 10px; }
+.justif-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 14px 16px; display: flex; justify-content: space-between; align-items: center;
+}
+.justif-card p { font-size: 13px; color: var(--text-light); margin-top: 2px; }
+.justif-actions { display: flex; gap: 8px; }
+.btn-accepter, .btn-refuser {
+    border: none; padding: 7px 14px; border-radius: 8px; font-size: 12.5px; font-weight: 700; cursor: pointer; color: white;
+}
+.btn-accepter { background: var(--success); }
+.btn-refuser { background: var(--accent); }
+
+.rapport-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); overflow: hidden; }
+.rapport-table th { background: var(--background); text-align: left; padding: 11px 14px; font-size: 11px; text-transform: uppercase; color: var(--primary); }
+.rapport-table td { padding: 12px 14px; font-size: 13px; border-top: 1px solid var(--border); font-family: var(--font-mono); }
+.rapport-table tr.alerte td { background: var(--danger-bg); }
+
+.empty-state { color: var(--text-light); font-size: 13.5px; }

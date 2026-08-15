@@ -1,0 +1,337 @@
+:root {
+    --navy: var(--primary);
+    --navy-dark: var(--primary-dark);
+    --navy-light: #E4E8FA;
+    --green: var(--success);
+    --green-dark: #106339;
+    --red: var(--accent);
+    --text-muted: var(--text-light);
+    --border: var(--border);
+}
+
+.empty-icon { color: var(--text-light); margin-bottom: 12px; }
+
+
+:root {
+  --navy: #24367d;
+  --navy-dark: #1d3c8f;
+  --navy-light: #eef1fb;
+  --green: #00a86b;
+  --green-dark: #01915d;
+  --red: #d9364f;
+  --red-dark: #b82a40;
+  --text-muted: #6b7280;
+  --border: #e5e8f2;
+}
+
+.chef-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--navy-light) 0%, #ffffff 260px);
+  padding: 48px 32px 80px;
+}
+
+/* ===== Header ===== */
+.dashboard-header {
+  max-width: 1200px;
+  margin: 0 auto 36px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dashboard-header .eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.dashboard-subtitle {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.pending-count {
+  background: var(--navy);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 6px 16px rgba(36, 54, 125, 0.25);
+}
+
+.pending-count .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7fd8ff;
+}
+
+/* ===== Grid ===== */
+.leave-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+/* ===== Card ===== */
+.leave-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgba(20, 30, 70, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.leave-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(20, 30, 70, 0.12);
+  border-color: #d3daf5;
+}
+
+.leave-card-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--navy), var(--navy-dark));
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.employee-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.motif-badge {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--navy-dark);
+  background: var(--navy-light);
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+/* ===== Dates ===== */
+.leave-dates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fafbff;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+.leave-dates .date-block {
+  flex: 1;
+  text-align: center;
+}
+
+.leave-dates .date-label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.leave-dates .date-value {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.leave-dates .arrow {
+  color: #b7c0e0;
+  font-size: 18px;
+}
+
+/* ===== Actions ===== */
+.leave-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.btn-validate,
+.btn-refuse {
+  flex: 1;
+  border: none;
+  padding: 11px 0;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn-validate {
+  background: var(--green);
+  color: white;
+}
+.btn-validate:hover { background: var(--green-dark); }
+
+.btn-refuse {
+  background: white;
+  color: var(--red);
+  border: 1.5px solid var(--red);
+}
+.btn-refuse:hover {
+  background: var(--red);
+  color: white;
+}
+
+.btn-validate:active,
+.btn-refuse:active {
+  transform: scale(0.97);
+}
+
+/* ===== Empty state ===== */
+.empty-state {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 16px;
+  border: 1px dashed var(--border);
+}
+
+.empty-state .icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.empty-state h3 {
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.empty-state p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .chef-dashboard { padding: 32px 16px 60px; }
+  .leave-grid { grid-template-columns: 1fr; }
+}
+
+.refuse-comment {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px 12px;
+    border: 1.5px solid #f5c2ca;
+    border-radius: 10px;
+    font-size: 13.5px;
+    color: #1f2937;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.refuse-comment:focus {
+    border-color: var(--red, #d9364f);
+    box-shadow: 0 0 0 3px rgba(217, 54, 79, 0.1);
+}
+
+.btn-refuse.active {
+    background: var(--red, #d9364f);
+    color: white;
+}
+
+.dashboard-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.own-leave-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-poser-conge,
+.btn-mes-demandes {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.btn-poser-conge {
+  background: #00a86b;
+  color: #ffffff;
+}
+
+.btn-mes-demandes {
+  background: #eef0f6;
+  color: #24367d;
+}
+
+.btn-poser-conge:hover,
+.btn-mes-demandes:hover {
+  opacity: 0.85;
+}
+
+.cadre-badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+

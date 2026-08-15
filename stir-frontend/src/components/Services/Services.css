@@ -1,0 +1,69 @@
+.services {
+    width: 100%;
+    padding: 64px 0;
+    background: #fafbff;
+}
+
+.services-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 6px rgba(20,30,70,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px rgba(20,30,70,0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+    padding: 16px 20px 8px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #6b7280;
+    padding: 0 20px 16px;
+    line-height: 1.5;
+}
+
+.card-btn {
+    margin: 0 20px 20px;
+    background: var(--primary-dark);
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13.5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+.card-btn:hover { background: var(--primary); }
+
+@media (max-width: 600px) {
+    .services-container { grid-template-columns: 1fr; }
+}

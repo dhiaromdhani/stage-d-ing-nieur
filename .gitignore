@@ -1,0 +1,65 @@
+# ===== Secrets et variables d'environnement =====
+.env
+.env.*
+!.env.example
+k8s/secrets.yaml
+policies.json
+
+# ===== Kubernetes =====
+k8s/*.local.yaml
+kubeconfig
+*.kubeconfig
+
+# ===== Frontend (React/Vite) =====
+stir-frontend/node_modules/
+stir-frontend/dist/
+stir-frontend/build/
+stir-frontend/.vite/
+stir-frontend/coverage/
+stir-frontend/.env
+stir-frontend/.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Backend (Java/Maven/Spring Boot) =====
+BackendStiirworkflow/target/
+BackendStiirworkflow/.mvn/
+BackendStiirworkflow/mvnw
+BackendStiirworkflow/mvnw.cmd
+BackendStiirworkflow/*.class
+BackendStiirworkflow/application-local.properties
+BackendStiirworkflow/application-local.yml
+*.jar
+*.war
+!maven-wrapper.jar
+
+# ===== Docker =====
+docker-compose.override.yml
+*.pid
+
+# ===== Terraform / Azure (si utilisé plus tard) =====
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs génériques =====
+*.log
+logs/
+
+# ===== Divers projet =====
+projASSu/**/node_modules/
+projASSu/**/target/

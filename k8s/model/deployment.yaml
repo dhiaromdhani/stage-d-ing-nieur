@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: model
+  namespace: stir
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: model }
+  template:
+    metadata:
+      labels: { app: model }
+    spec:
+      containers:
+        - name: model
+          image: stiracr2026.azurecr.io/stir-model:latest
+          ports: [{ containerPort: 5000 }]

@@ -1,0 +1,106 @@
+.range-calendar {
+    background: white;
+    border: 1px solid var(--border, #e5e8f2);
+    border-radius: 14px;
+    padding: 18px;
+    max-width: 320px;
+}
+
+.range-calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    font-weight: 700;
+    color: var(--navy, #24367d);
+}
+
+.range-calendar-header button {
+    background: var(--navy-light, #eef1fb);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--navy, #24367d);
+    transition: background 0.15s ease;
+}
+
+.range-calendar-header button:hover {
+    background: #dfe5fa;
+}
+
+.range-calendar-daynames {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #9aa3c2;
+    margin-bottom: 6px;
+}
+
+.range-calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+}
+
+.empty-cell {
+    display: block;
+}
+
+.day-cell {
+    aspect-ratio: 1;
+    border: none;
+    background: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.day-cell:hover:not(.disabled) {
+    background: var(--navy-light, #eef1fb);
+}
+
+.day-cell.in-range {
+    background: var(--navy-light, #eef1fb);
+    color: var(--navy, #24367d);
+    border-radius: 0;
+}
+
+.day-cell.edge {
+    background: var(--navy, #24367d) !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+.day-cell.disabled {
+    color: #d1d5db;
+    cursor: not-allowed;
+}
+
+.range-calendar-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--border, #e5e8f2);
+    font-size: 13px;
+}
+
+.footer-label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9aa3c2;
+    margin-bottom: 2px;
+}
+
+.range-calendar-footer strong {
+    color: var(--navy, #24367d);
+}

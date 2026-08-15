@@ -1,0 +1,40 @@
+// AI-Generated Content Sections Styling
+
+.ai-section {
+  margin-top: 0.85rem;
+  border-left: 3px solid rgba(197, 110, 61, 0.3);
+  padding: 0.75rem 0.85rem;
+  background: linear-gradient(90deg, rgba(197, 110, 61, 0.06), transparent);
+  border-radius: 8px;
+}
+
+.ai-section-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-900);
+  letter-spacing: 0.02em;
+}
+
+.ai-section-text {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--ink-700);
+}
+
+.ai-summary {
+  border-left-color: rgba(47, 122, 83, 0.3);
+  background: linear-gradient(90deg, rgba(47, 122, 83, 0.06), transparent);
+}
+
+.ai-insight {
+  border-left-color: rgba(197, 110, 61, 0.3);
+  background: linear-gradient(90deg, rgba(197, 110, 61, 0.06), transparent);
+}
+
+.ai-recommendation {
+  border-left-color: rgba(197, 110, 61, 0.4);
+  background: linear-gradient(90deg, rgba(197, 110, 61, 0.1), transparent);
+  box-shadow: 0 2px 8px rgba(197, 110, 61, 0.1);
+}

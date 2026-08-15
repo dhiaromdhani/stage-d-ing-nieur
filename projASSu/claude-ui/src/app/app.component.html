@@ -1,0 +1,304 @@
+﻿<div class="app-shell">
+  <aside class="sidebar">
+    <div class="sb-top">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        ChatBAT
+      </div>
+      <button class="new-btn" (click)="startNewAnalysis()">
+        <span>+</span> Nouvelle analyse
+      </button>
+    </div>
+
+    <div class="section-label">Historique</div>
+    <div class="search-wrap">
+      <input
+        class="search-inp"
+        type="search"
+        [(ngModel)]="historySearchTerm"
+        placeholder="Rechercher..."
+        aria-label="Rechercher dans l'historique"
+      />
+    </div>
+
+    <div class="hist-scroll">
+      @if (filteredHistoryEntries.length > 0) {
+        <ul class="history-list">
+          @for (entry of filteredHistoryEntries; track trackByHistoryId($index, entry)) {
+            <li>
+              <button type="button" class="hist-item" (click)="restoreHistory(entry)">
+                <span class="hist-title-text">{{ entry.title }}</span>
+                <div class="hist-meta">
+                  <span>{{ entry.messageCount }} msg</span>
+                  <span>{{ entry.savedAt | date:'short' }}</span>
+                </div>
+              </button>
+            </li>
+          }
+        </ul>
+      } @else if (historyEntries.length > 0) {
+        <p class="hist-empty">Aucun resultat.</p>
+      } @else {
+        <p class="hist-empty">Aucune discussion archivee.</p>
+      }
+    </div>
+  </aside>
+
+  <main class="chat-pane">
+    <header class="chat-header">
+      <div class="chat-header-left">
+        <span class="status-dot"></span>
+        <h1 class="chat-title">ChatBAT</h1>
+      </div>
+      <span class="status-label">Assistant actif</span>
+    </header>
+
+    <section class="messages">
+      @for (message of messages; track trackByIndex($index)) {
+        <article class="msg-row" [class.user]="message.role === 'user'">
+          <div class="avatar"
+            [class.av-ai]="message.role === 'assistant'"
+            [class.av-user]="message.role === 'user'">
+            {{ message.role === 'assistant' ? 'CB' : 'Vous' }}
+          </div>
+
+          <div class="bubble"
+            [class.ai]="message.role === 'assistant'"
+            [class.user]="message.role === 'user'">
+            <p class="bubble-text">{{ message.content }}</p>
+
+            @if (message.analysis) {
+              <div class="analysis-block">
+
+                <!-- Compteurs -->
+                <div class="badge-counts">
+                  <span class="cnt-badge">Demande : {{ message.analysis.requested_count }}</span>
+                  <span class="cnt-badge success">Retourne : {{ message.analysis.returned_count }}</span>
+                </div>
+
+                <!-- Besoin utilisateur -->
+                @if (message.analysis.requirement_summary) {
+                  <div class="ai-card summary-card">
+                    <div class="ai-card-label">📋 Votre besoin</div>
+                    <p class="ai-card-text">{{ message.analysis.requirement_summary }}</p>
+                  </div>
+                }
+
+                <!-- Chips -->
+                @if (message.analysis.target_skills.length > 0 || message.analysis.target_roles.length > 0) {
+                  <div class="chips-section">
+                    <span class="chips-label">Competences & roles identifies</span>
+                    <div class="chips-row">
+                      @for (skill of message.analysis.target_skills; track skill) {
+                        <span class="chip skill">{{ skill }}</span>
+                      }
+                      @for (role of message.analysis.target_roles; track role) {
+                        <span class="chip role">{{ role }}</span>
+                      }
+                    </div>
+                  </div>
+                }
+
+                <!-- Analyse competences -->
+                @if (message.analysis.skill_analysis) {
+                  <div class="ai-card insight-card">
+                    <div class="ai-card-label">🎯 Analyse competences</div>
+                    <p class="ai-card-text">{{ message.analysis.skill_analysis }}</p>
+                  </div>
+                }
+
+                <!-- Justification -->
+                @if (message.analysis.ai_justification) {
+                  <p class="justification">{{ message.analysis.ai_justification }}</p>
+                }
+
+                <!-- Recommandation -->
+                @if (message.analysis.recommendation_summary) {
+                  <div class="ai-card rec-card">
+                    <div class="ai-card-label">⭐ Recommandation</div>
+                    <p class="ai-card-text">{{ message.analysis.recommendation_summary }}</p>
+                  </div>
+                }
+
+                <!-- Liste employes -->
+                <div class="employees-block">
+                  <div class="employees-header">
+                    <span class="employees-title">Profils recommandes</span>
+                    <span class="employees-count">{{ message.analysis.employees.length }} profil(s)</span>
+                  </div>
+                  <ul class="employees-list">
+                    @for (employee of message.analysis.employees; track employee.id) {
+                      <li class="emp-item">
+                        <div class="emp-avatar">{{ employee.name | slice:0:1 }}</div>
+                        <div class="emp-body">
+                          <div class="emp-top-row">
+                            <span class="emp-name">{{ employee.name }}</span>
+                            <span class="score-badge"
+                              [class.score-high]="employee.score >= 90"
+                              [class.score-mid]="employee.score >= 70 && employee.score < 90"
+                              [class.score-low]="employee.score < 70">
+                              Score {{ employee.score }}
+                            </span>
+                          </div>
+                          <p class="emp-role">{{ employee.jobTitle }}</p>
+                          @if (employee.missing_skills.length > 0) {
+                            <div class="emp-missing">
+                              <span class="emp-missing-label">A renforcer :</span>
+                              <div class="emp-missing-chips">
+                                @for (skill of employee.missing_skills; track skill) {
+                                  <span class="chip-missing">{{ skill }}</span>
+                                }
+                              </div>
+                            </div>
+                          } @else {
+                            <p class="emp-complete">✓ Profil complet pour ce besoin</p>
+                          }
+                        </div>
+                      </li>
+                    }
+                  </ul>
+                </div>
+
+              </div>
+            }
+          </div>
+        </article>
+      }
+
+      @if (isLoading) {
+        <article class="msg-row">
+          <div class="avatar av-ai">CB</div>
+          <div class="bubble ai loading-bubble">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+          </div>
+        </article>
+      }
+    </section>
+
+    <footer class="composer">
+      <!-- Barre voix -->
+      <div class="voice-toolbar">
+        <button type="button" class="tool-btn" [class.mic-on]="isListening"
+          (click)="toggleVoiceInput()" [disabled]="!voiceSupported">
+          {{ isListening ? '🎙 Arreter' : '🎙 Micro' }}
+        </button>
+        <button type="button" class="tool-btn stop-btn"
+          (click)="stopVoiceInput()" [disabled]="!isListening">Stop</button>
+        <label class="lang-label" for="voiceLang">Langue</label>
+        <select id="voiceLang" class="lang-select"
+          [ngModel]="voiceLanguage" (ngModelChange)="onVoiceLanguageChange($event)"
+          [disabled]="isListening || !voiceSupported">
+          <option value="fr-FR">Francais</option>
+          <option value="en-US">English</option>
+        </select>
+        <span class="voice-state"
+          [class.listening]="voiceStatusTone === 'listening'"
+          [class.muted]="voiceStatusTone === 'muted'"
+          [class.warn]="voiceStatusTone === 'warn'"
+          [class.error]="voiceStatusTone === 'error'">
+          {{ voiceStatusText }}
+        </span>
+      </div>
+
+      <!-- Diagnostics (repliables) -->
+      <details class="voice-diagnostics">
+        <summary class="voice-diag-summary">
+          Diagnostic voix
+          <span class="voice-diag-badge" [class.active]="isListening">
+            {{ isListening ? 'ACTIF' : 'INACTIF' }}
+          </span>
+        </summary>
+        <div class="voice-diag-body">
+          <p class="voice-preview" *ngIf="liveTranscript; else noLive">Live : {{ liveTranscript }}</p>
+          <ng-template #noLive><p class="voice-preview muted">Aucune transcription live.</p></ng-template>
+          <p class="voice-preview">Prompt : {{ promptInput || 'vide' }}</p>
+          @if (!isListening && !liveTranscript && !promptInput && voiceStatusTone === 'error') {
+            <p class="voice-preview warn">Essayez Chrome/Edge avec micro autorise.</p>
+          }
+          @if (voiceEventLog.length > 0) {
+            <ul class="voice-events">
+              @for (item of voiceEventLog; track item) { <li>{{ item }}</li> }
+            </ul>
+          }
+        </div>
+      </details>
+
+      <p class="voice-tip">Astuce : autorisez le micro dans le navigateur. La transcription est conservee dans le prompt apres arret.</p>
+
+      <!-- Joindre document -->
+      <div class="prompt-tools">
+        <input #documentInput type="file"
+          accept=".txt,.csv,.json,.md,.log,.png,.jpg,.jpeg,.webp,.tif,.tiff,text/plain,text/csv,application/json,image/png,image/jpeg,image/webp,image/tiff"
+          (change)="onDocumentSelected($event)" hidden />
+        <button type="button" class="tool-btn"
+          (click)="triggerDocumentPicker(documentInput)" [disabled]="isLoading">
+          📎 Joindre document
+        </button>
+        @if (selectedDocumentName) {
+          <div class="attached-pill">
+            <span class="attached-pill-name">{{ selectedDocumentName }}</span>
+            <button type="button" (click)="clearAttachedDocument()" [disabled]="isLoading">✕</button>
+          </div>
+        }
+      </div>
+
+      <!-- Textarea + autocomplete -->
+      <div class="textarea-wrap">
+        <textarea
+          #promptTextarea
+          [(ngModel)]="promptInput"
+          (ngModelChange)="onPromptInputChange($event)"
+          (keydown)="onPromptKeyDown($event)"
+          placeholder="Decrivez la formation souhaitee ou posez une question..."
+          [disabled]="isLoading"
+        ></textarea>
+
+        @if (autoCompletions.length > 0) {
+          <div class="autocomplete-panel">
+            <p class="ac-label">
+              Suggestions intelligentes
+              @if (suggestionLoading) { <span class="ac-loading">…</span> }
+              <span class="ac-hint">Tab pour appliquer</span>
+            </p>
+            @for (completion of autoCompletions; track trackByValue($index, completion)) {
+              <button type="button" class="ac-option"
+                [class.selected]="$index === selectedCompletionIndex"
+                (click)="applyCompletion(completion)">
+                {{ completion }}
+              </button>
+            }
+          </div>
+        }
+      </div>
+
+      @if (voiceError) { <p class="err-msg">⚠ {{ voiceError }}</p> }
+      @if (documentError) { <p class="doc-note">{{ documentError }}</p> }
+
+      @if (suggestedPrompt || promptSuggestions.length > 0) {
+        <div class="live-helper">
+          @if (suggestedPrompt) {
+            <p class="helper-label">Prompt reformule suggere</p>
+            <p class="helper-prompt">{{ suggestedPrompt }}</p>
+          }
+          @for (hint of promptSuggestions; track hint) {
+            <p class="helper-hint">→ {{ hint }}</p>
+          }
+        </div>
+      }
+
+      <div class="composer-actions">
+        <button type="button" class="btn-ghost"
+          (click)="optimizeOnly()" [disabled]="isLoading || !promptInput.trim()">
+          Optimiser
+        </button>
+        <button type="button" class="btn-send"
+          (click)="sendPrompt()"
+          [disabled]="isLoading || (!promptInput.trim() && !selectedDocumentName.trim() && !selectedDocumentContent.trim() && !selectedDocumentBase64.trim())">
+          Envoyer ↑
+        </button>
+      </div>
+    </footer>
+  </main>
+</div>

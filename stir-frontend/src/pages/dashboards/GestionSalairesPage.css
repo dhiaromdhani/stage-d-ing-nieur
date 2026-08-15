@@ -1,0 +1,84 @@
+.salaires-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.salaires-subtitle {
+    color: var(--text-light);
+    font-size: 14px;
+    margin: 8px 0 24px;
+}
+
+.salaires-table-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.salaires-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.salaires-table th {
+    background: var(--background);
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.salaires-table td {
+    padding: 12px 16px;
+    font-size: 13.5px;
+    border-top: 1px solid var(--border);
+    vertical-align: middle;
+}
+
+.salaire-badge {
+    background: var(--success-bg);
+    color: var(--success);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    font-weight: 700;
+}
+
+.salaire-empty {
+    color: var(--text-light);
+    font-style: italic;
+    font-size: 12.5px;
+}
+
+.salaires-table input {
+    width: 130px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px;
+}
+.salaires-table input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.save-salaire-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 12.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.save-salaire-btn:hover:not(:disabled) { background: var(--primary-dark); }
+.save-salaire-btn:disabled { opacity: 0.6; cursor: not-allowed; }

@@ -1,0 +1,109 @@
+.solde-widget {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+  font-family: var(--font-body);
+}
+
+.solde-widget--loading,
+.solde-widget--error {
+  padding: 16px 20px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.solde-widget--error {
+  color: #b91c1c;
+  background: var(--danger-bg);
+  border-color: #fecaca;
+}
+
+/* Anneau de progression via conic-gradient, sans dépendance externe */
+.solde-widget__ring {
+  --ring-color: var(--success);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: conic-gradient(var(--ring-color) var(--pct), #E4E8FA 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.4s ease;
+}
+
+.solde-widget--attention .solde-widget__ring {
+  --ring-color: var(--warning);
+}
+
+.solde-widget--critique .solde-widget__ring {
+  --ring-color: var(--accent);
+}
+
+.solde-widget__ring-inner {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.solde-widget__value {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+  font-family: var(--font-mono);
+}
+
+.solde-widget__label {
+  font-size: 11px;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.solde-widget__details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.solde-widget__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+  font-family: var(--font-display);
+}
+
+.solde-widget__breakdown {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-light);
+}
+
+.solde-widget__warning {
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 480px) {
+  .solde-widget {
+    flex-direction: column;
+    text-align: center;
+  }
+}

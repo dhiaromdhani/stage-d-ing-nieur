@@ -1,0 +1,88 @@
+.profils-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.profils-subtitle {
+    color: var(--text-light);
+    font-size: 14px;
+    margin: 8px 0 24px;
+    max-width: 700px;
+}
+
+.profils-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.profil-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 18px;
+    box-shadow: var(--shadow-sm);
+}
+
+.profil-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.profil-card-header strong { font-size: 14.5px; color: var(--primary); }
+.profil-dept {
+    font-size: 11.5px;
+    background: var(--background);
+    color: var(--text-light);
+    padding: 2px 8px;
+    border-radius: 999px;
+    text-transform: capitalize;
+}
+
+.profil-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profil-fields label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.profil-fields input,
+.profil-fields select {
+    height: 36px;
+    padding: 0 10px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.checkbox-label {
+    flex-direction: row !important;
+    align-items: center;
+    gap: 8px !important;
+}
+
+.profil-save-btn {
+    width: 100%;
+    margin-top: 14px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 9px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.profil-save-btn:hover:not(:disabled) { background: var(--primary-dark); }
+.profil-save-btn:disabled { opacity: 0.6; cursor: not-allowed; }

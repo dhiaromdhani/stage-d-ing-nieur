@@ -1,0 +1,91 @@
+.notification-bell { position: relative; }
+
+.bell-btn {
+  background: var(--background);
+  border: 1px solid var(--border);
+  color: var(--text);
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.15s ease;
+}
+.bell-btn:hover { background: #EEF1F6; }
+
+.bell-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 5px;
+  font-family: var(--font-mono);
+}
+
+.bell-dropdown {
+  position: absolute;
+  right: 0;
+  top: 44px;
+  width: 340px;
+  max-height: 420px;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  z-index: 50;
+}
+.bell-dropdown-header {
+  padding: 14px 16px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+.bell-empty { padding: 20px 16px; color: var(--text-light); text-align: center; font-size: 13px; }
+
+.bell-item { padding: 12px 16px; border-bottom: 1px solid #F1F3F7; cursor: pointer; }
+.bell-item strong { display: block; font-size: 13.5px; color: var(--text); margin-bottom: 2px; }
+.bell-item p { font-size: 12.5px; color: var(--text-light); margin: 0; line-height: 1.4; }
+.bell-item.unread { background: #EEF1FB; }
+
+.bell-actions { display: flex; gap: 8px; margin-top: 8px; }
+.btn-accepter, .btn-refuser {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-accepter { background: var(--success); color: #fff; }
+.btn-accepter:hover:not(:disabled) { opacity: 0.9; }
+.btn-refuser { background: var(--accent); color: #fff; }
+.btn-refuser:hover:not(:disabled) { opacity: 0.9; }
+.btn-accepter:disabled, .btn-refuser:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.bell-decision-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+.bell-decision-tag.ok { background: var(--success-bg); color: var(--success); }
+.bell-decision-tag.ko { background: var(--danger-bg); color: var(--accent); }

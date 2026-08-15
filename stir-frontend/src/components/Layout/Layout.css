@@ -1,0 +1,18 @@
+.layout-with-sidebar {
+  display: flex;
+  min-height: 100vh;
+}
+
+.layout-content-wrapper {
+  margin-left: 220px;
+  width: calc(100% - 220px);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-content {
+  flex: 1;
+  padding: 24px;
+  box-sizing: border-box;
+}

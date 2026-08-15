@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: stir
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: backend }
+  template:
+    metadata:
+      labels: { app: backend }
+    spec:
+      containers:
+        - name: backend
+          image: stiracr2026.azurecr.io/stir-backend:latest
+          ports: [{ containerPort: 8080 }]
+          envFrom:
+            - configMapRef: { name: stir-config }
+          env:
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef: { name: stir-secrets, key: JWT_SECRET }
+            - name: SPRING_MAIL_USERNAME
+              valueFrom:
+                secretKeyRef: { name: stir-secrets, key: SPRING_MAIL_USERNAME }
+            - name: SPRING_MAIL_PASSWORD
+              valueFrom:
+                secretKeyRef: { name: stir-secrets, key: SPRING_MAIL_PASSWORD }

@@ -1,0 +1,8 @@
+flask
+Flask-Cors
+pandas
+pymongo
+pytesseract
+pillow
+requests
+gunicorn
