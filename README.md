@@ -1,50 +1,102 @@
-# STIR Workflow de Gestion des Congés
+# STIR Workflow de Gestion des Congés et Recommandation
 
 ##  Présentation
 
-**STIR Workflow de Gestion des Congés** est une application web développée dans le cadre d'un stage d'ingénieur au sein de la **Société Tunisienne des Industries de Raffinage (STIR)**.
+**STIR Workflow de Gestion des Congés et Recommandation** est une application web développée dans le cadre d'un stage d'ingénieur au sein de la **Société Tunisienne des Industries de Raffinage (STIR)**.
 
-L'objectif principal du projet est de **digitaliser et automatiser le processus de gestion des demandes de congé**, depuis la création de la demande par l'employé jusqu'à sa validation finale par le service des ressources humaines.
+Le projet vise à digitaliser le processus de gestion des congés tout en intégrant des fonctionnalités intelligentes permettant d'exploiter les données des employés et de proposer des **recommandations d'activités adaptées à leurs profils**.
 
-L'application permet de centraliser les demandes, suivre leur état et gérer le processus de validation selon les différents niveaux hiérarchiques.
+L'application est conçue selon une architecture **Full Stack et microservices**, avec plusieurs services indépendants communiquant via des API.
 
 ---
 
-##  Objectifs
+#  Objectifs
+
+Le projet a plusieurs objectifs :
 
 * Digitaliser la gestion des demandes de congé.
 * Automatiser le workflow de validation.
-* Centraliser les informations liées aux demandes.
-* Assurer la traçabilité des décisions.
+* Centraliser les données des employés et des demandes.
+* Assurer la traçabilité des validations et des refus.
 * Gérer les utilisateurs selon leurs rôles.
-* Sécuriser l'accès à l'application.
-* Intégrer un service d'analyse basé sur l'intelligence artificielle.
-* Préparer une architecture conteneurisée et déployable sur Kubernetes et Azure.
+* Sécuriser l'application avec JWT.
+* Exploiter les données des employés.
+* Analyser les compétences et informations liées aux employés.
+* Proposer des **activités adaptées aux employés** grâce à un service de recommandation.
+* Préparer le déploiement des différents services avec Docker et Kubernetes sur Azure.
+
+---
+
+#  Architecture générale
+
+Le système est composé de plusieurs services :
+
+```text
+                         ┌─────────────────────┐
+                         │      Frontend       │
+                         │    React + Vite     │
+                         └──────────┬──────────┘
+                                    │
+                                  REST API
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │       Backend       │
+                         │     Spring Boot     │
+                         │   Security + JWT    │
+                         └──────┬──────┬───────┘
+                                │      │
+                    ┌───────────┘      └───────────────┐
+                    │                                  │
+                    ▼                                  ▼
+             ┌──────────────┐                  ┌──────────────┐
+             │   MongoDB    │                  │ Model / AI   │
+             │   Database   │                  │   Service    │
+             └──────────────┘                  └──────┬───────┘
+                                                      │
+                                                      ▼
+                                            ┌──────────────────┐
+                                            │ Recommendation   │
+                                            │     Service      │
+                                            └──────────────────┘
+```
+
+### Principaux composants
+
+| Service        | Technologie    | Responsabilité                    |
+| -------------- | -------------- | --------------------------------- |
+| Frontend       | React / Vite   | Interface utilisateur             |
+| Backend        | Spring Boot    | Logique métier et API             |
+| MongoDB        | MongoDB        | Base de données principale        |
+| Model          | Python / Flask | Analyse et traitement intelligent |
+| Recommendation | Python / AI    | Recommandation d'activités        |
 
 ---
 
 #  Workflow de gestion des congés
 
-Le processus de validation est organisé selon plusieurs niveaux hiérarchiques :
+Le processus de validation suit plusieurs niveaux :
 
 ```text
 Employé
    │
-   │ Création de la demande
+   ▼
+Création d'une demande
+   │
    ▼
 Chef de service
    │
-   ├── Refus → Demande refusée + justification
+   ├── Refus → Justification
    │
    ▼
 Sous-directeur
    │
-   ├── Refus → Demande refusée + justification
+   ├── Refus → Justification
    │
    ▼
 Directeur
    │
-   ├── Refus → Demande refusée + justification
+   ├── Refus → Justification
    │
    ▼
 Ressources Humaines
@@ -53,54 +105,192 @@ Ressources Humaines
 Demande approuvée
 ```
 
-Chaque responsable peut traiter les demandes correspondant à son niveau de responsabilité.
+Chaque niveau possède des droits correspondant à son rôle.
 
 ---
 
-#  Architecture du projet
+#  Gestion des employés
 
-L'application est composée de plusieurs services :
+Le système centralise les informations relatives aux employés.
+
+Les données peuvent notamment être utilisées pour :
+
+* Identifier les compétences.
+* Consulter les expériences.
+* Analyser les activités réalisées.
+* Exploiter les évaluations.
+* Identifier les domaines d'intérêt.
+* Calculer la pertinence d'une activité pour un employé.
+
+Ces informations constituent la base du système de recommandation.
+
+---
+
+#  Model / AI Service
+
+Le projet contient un service indépendant dédié au traitement intelligent des données.
+
+Ce service est développé avec :
+
+* Python
+* Flask
+* Machine Learning
+* NLP selon les besoins du modèle
+
+Il communique avec le backend via une API REST.
+
+Exemple :
 
 ```text
-                         ┌──────────────────────┐
-                         │       Frontend       │
-                         │      React + Vite    │
-                         └──────────┬───────────┘
-                                    │
-                                  REST API
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │       Backend        │
-                         │     Spring Boot      │
-                         │   Spring Security    │
-                         │        JWT           │
-                         └───────┬───────┬──────┘
-                                 │       │
-                                 │       │ REST API
-                                 │       ▼
-                                 │  ┌───────────────┐
-                                 │  │ AI / Python   │
-                                 │  │    Flask      │
-                                 │  └───────────────┘
-                                 │
-                                 ▼
-                         ┌──────────────────────┐
-                         │       MongoDB        │
-                         │      Database        │
-                         └──────────────────────┘
+Backend Spring Boot
+        │
+        │ HTTP Request
+        ▼
+   Model Service
+        │
+        │ Analyse
+        ▼
+    Résultats
 ```
 
-### Composants
-
-* **Frontend** : interface utilisateur et dashboards.
-* **Backend** : logique métier et API REST.
-* **MongoDB** : base de données principale de l'application.
-* **AI Service** : service Python destiné à l'analyse des données.
+L'objectif du service est de traiter les informations relatives aux employés et aux activités afin de fournir des données exploitables par le système de recommandation.
 
 ---
 
-#  Technologies utilisées
+#  Recommandation des activités
+
+Une fonctionnalité importante du projet est la **recommandation d'activités aux employés**.
+
+Le système exploite différentes informations :
+
+```text
+                 Employé
+                    │
+        ┌───────────┼────────────┐
+        ▼           ▼            ▼
+    Compétences  Expérience   Activités
+        │           │            │
+        └───────────┼────────────┘
+                    ▼
+              Model / AI
+                    │
+                    ▼
+          Matching / Scoring
+                    │
+                    ▼
+       Recommandations d'activités
+```
+
+Le système peut ainsi déterminer quelles activités sont pertinentes pour un employé en fonction de son profil et des informations disponibles.
+
+### Exemple
+
+```text
+Employé
+ ├── Java
+ ├── Spring Boot
+ ├── MongoDB
+ └── 2 ans d'expérience
+
+             ↓
+
+Analyse du profil
+
+             ↓
+
+Activités disponibles
+
+             ↓
+
+Calcul de pertinence
+
+             ↓
+
+Recommandations
+```
+
+Cette fonctionnalité permet d'aider les responsables à identifier les employés pouvant être associés à certaines activités internes.
+
+---
+
+#  Données utilisées
+
+MongoDB constitue la **base de données principale du projet**.
+
+Elle permet de stocker notamment :
+
+* Utilisateurs
+* Employés
+* Demandes de congé
+* Activités
+* Notifications
+* Sessions
+* Historique des recommandations
+* Logs d'audit
+* Informations nécessaires au système de recommandation
+
+Exemples de collections :
+
+```text
+users
+employees
+activities
+notifications
+sessions
+recommendationhistories
+auditlogs
+```
+
+---
+
+#  Authentification et sécurité
+
+L'application utilise :
+
+* Spring Security
+* JWT
+* Contrôle d'accès basé sur les rôles
+
+Les rôles principaux sont :
+
+```text
+ROLE_EMPLOYEE
+ROLE_CHEF
+ROLE_SOUS_DIRECTEUR
+ROLE_DIRECTEUR
+ROLE_RH
+ROLE_ADMIN
+```
+
+Chaque rôle possède des permissions spécifiques.
+
+---
+
+#  Statuts des demandes de congé
+
+Les demandes peuvent prendre les statuts suivants :
+
+```text
+PENDING_CHEF
+REFUSED_CHEF
+
+PENDING_SOUS_DIRECTEUR
+REFUSED_SOUS_DIRECTEUR
+
+PENDING_DIRECTEUR
+REFUSED_DIRECTEUR
+
+PENDING_RH
+REFUSED_RH
+
+APPROVED
+```
+
+Lorsqu'une demande est refusée, une justification est enregistrée.
+
+---
+
+#  Technologies
 
 ## Frontend
 
@@ -120,134 +310,59 @@ L'application est composée de plusieurs services :
 * REST API
 * Maven
 
-## Base de données
+## Database
 
 * **MongoDB 7**
 
-MongoDB constitue la **base de données principale du projet**.
-
-Base utilisée :
-
-```text
-stirworkflow
-```
-
-## Intelligence artificielle
+## AI / Model
 
 * Python
 * Flask
-* Machine Learning / analyse de données
+* Machine Learning
+* NLP
 
-## Conteneurisation
+## DevOps / Cloud
 
 * Docker
 * Docker Compose
-
-## Cloud & Orchestration
-
-La partie DevOps prévoit une architecture basée sur :
-
-* Microsoft Azure
-* Azure Resource Group
-* Azure Container Registry (**ACR**)
-* Azure Kubernetes Service (**AKS**)
 * Kubernetes
+* Microsoft Azure
+* Azure Container Registry (ACR)
+* Azure Kubernetes Service (AKS)
 * Kubernetes Ingress
-* Kubernetes Services
-* Kubernetes Deployments
 * Helm
-
----
-
-#  Authentification et sécurité
-
-L'application utilise **Spring Security** avec une authentification basée sur **JWT**.
-
-Les utilisateurs sont associés à différents rôles :
-
-```text
-ROLE_EMPLOYEE
-ROLE_CHEF
-ROLE_SOUS_DIRECTEUR
-ROLE_DIRECTEUR
-ROLE_RH
-ROLE_ADMIN
-```
-
-Les autorisations sont adaptées aux responsabilités de chaque rôle.
-
----
-
-#  Statuts des demandes
-
-Une demande de congé peut prendre différents statuts :
-
-```text
-PENDING_CHEF
-REFUSED_CHEF
-
-PENDING_SOUS_DIRECTEUR
-REFUSED_SOUS_DIRECTEUR
-
-PENDING_DIRECTEUR
-REFUSED_DIRECTEUR
-
-PENDING_RH
-REFUSED_RH
-
-APPROVED
-```
-
-En cas de refus, une justification peut être enregistrée.
-
----
-
-#  Service d'intelligence artificielle
-
-Un service Python indépendant est intégré à l'architecture.
-
-Il expose une API permettant au backend de communiquer avec le modèle d'analyse.
-
-Endpoint principal :
-
-```http
-POST /analyze
-```
-
-Le service fonctionne indépendamment du backend Spring Boot.
-
-Cette séparation permet d'avoir une architecture composée de plusieurs services :
-
-```text
-Spring Boot Backend
-        │
-        │ HTTP
-        ▼
-Python AI Service
-```
 
 ---
 
 #  Docker
 
-Les différents composants peuvent être exécutés sous forme de conteneurs Docker.
-
-Les principaux services sont :
+Chaque service peut être exécuté dans son propre conteneur :
 
 ```text
-Frontend
-Backend
-MongoDB
-AI Service
+┌───────────────────────┐
+│ Frontend Container    │
+└───────────────────────┘
+
+┌───────────────────────┐
+│ Backend Container     │
+└───────────────────────┘
+
+┌───────────────────────┐
+│ Model Container       │
+└───────────────────────┘
+
+┌───────────────────────┐
+│ MongoDB Container     │
+└───────────────────────┘
 ```
 
-Lancement avec Docker Compose :
+Les services peuvent être lancés avec :
 
 ```bash
 docker compose up --build
 ```
 
-Arrêt :
+Pour arrêter les services :
 
 ```bash
 docker compose down
@@ -255,35 +370,39 @@ docker compose down
 
 ---
 
-#  Déploiement sur Microsoft Azure
+#  Architecture Azure
 
-Une partie importante du projet concerne la préparation du déploiement sur **Microsoft Azure**.
+Le déploiement cloud prévu repose sur **Microsoft Azure**.
 
-L'architecture cible utilise :
+## Azure Resource Group
 
-### Azure Resource Group
-
-Un Resource Group permet de regrouper les ressources Azure du projet.
+Les ressources du projet sont regroupées dans :
 
 ```text
 stir-rg
 ```
 
-### Azure Container Registry — ACR
+## Azure Container Registry — ACR
 
-**Azure Container Registry (ACR)** est utilisé pour stocker les images Docker du projet.
-
-Les images des différents services pourront être publiées dans l'ACR :
+L'**Azure Container Registry (ACR)** permet de stocker les images Docker des différents services :
 
 ```text
-Frontend Image
-Backend Image
-AI Model Image
+ACR
+│
+├── Frontend Image
+├── Backend Image
+└── Model Image
 ```
 
-### Azure Kubernetes Service — AKS
+## Azure Kubernetes Service — AKS
 
-**Azure Kubernetes Service (AKS)** est utilisé comme cluster Kubernetes pour héberger les différents services de l'application.
+Le projet utilise un cluster **Azure Kubernetes Service (AKS)** pour héberger les différents composants.
+
+Cluster :
+
+```text
+stir-aks
+```
 
 Architecture cible :
 
@@ -291,61 +410,40 @@ Architecture cible :
                     Internet
                        │
                        ▼
-                ┌─────────────┐
-                │   Ingress   │
-                └──────┬──────┘
+                  ┌─────────┐
+                  │ Ingress │
+                  └────┬────┘
                        │
-          ┌────────────┼────────────┐
-          │            │            │
-          ▼            ▼            ▼
-     Frontend       Backend       AI Model
-       Pod            Pod            Pod
-                       │
-                       ▼
-                  MongoDB
-```
-
-Le cluster Kubernetes prévu pour le projet :
-
-```text
-AKS Cluster
-└── stir-aks
-```
-
-Les ressources Azure principales sont donc :
-
-```text
-Azure
-│
-├── Resource Group
-│   └── stir-rg
-│
-├── Azure Container Registry
-│
-└── Azure Kubernetes Service
-    └── stir-aks
+        ┌──────────────┼───────────────┐
+        ▼              ▼               ▼
+   Frontend Pod   Backend Pod      Model Pod
+                       │               │
+                       │               │
+                       ▼               ▼
+                  MongoDB Pod     Recommendation
+                                       Service
 ```
 
 ---
 
 #  Kubernetes
 
-Le déploiement Kubernetes est organisé autour de plusieurs ressources :
+Les composants sont organisés sous forme de ressources Kubernetes :
 
 ```text
-Kubernetes Cluster
+AKS Cluster
 │
 ├── Frontend Deployment
 ├── Backend Deployment
-├── AI Model Deployment
-├── MongoDB Deployment
+├── Model Deployment
+├── MongoDB
 │
 ├── Services
 │
 └── Ingress
 ```
 
-Les fichiers Kubernetes peuvent être organisés comme suit :
+Exemple d'organisation :
 
 ```text
 k8s/
@@ -355,8 +453,6 @@ k8s/
 ├── mongodb.yaml
 └── ingress.yaml
 ```
-
-Cette architecture permet de déployer chaque composant indépendamment dans le cluster AKS.
 
 ---
 
@@ -398,15 +494,13 @@ STIR-Workflow/
 
 ## Prérequis
 
-Installer :
-
 * Node.js
 * npm
 * Java JDK
 * Maven
 * Python
-* MongoDB ou Docker
 * Docker Desktop
+* MongoDB
 
 ---
 
@@ -442,7 +536,7 @@ http://localhost:5173
 
 ---
 
-## AI Service
+## Model / AI
 
 ```bash
 cd projASSu
@@ -450,7 +544,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-AI Service :
+Model Service :
 
 ```text
 http://localhost:5000
@@ -458,9 +552,9 @@ http://localhost:5000
 
 ---
 
-# API d'authentification
+#  API
 
-Endpoint de connexion :
+## Authentification
 
 ```http
 POST /api/auth/login
@@ -475,13 +569,21 @@ Exemple :
 }
 ```
 
-Après authentification, le serveur retourne un **JWT** permettant d'accéder aux ressources protégées.
+Le serveur retourne un JWT permettant d'accéder aux ressources protégées.
+
+## Analyse AI
+
+```http
+POST /analyze
+```
+
+Le backend peut communiquer avec le service Model via cet endpoint.
 
 ---
 
 #  Variables d'environnement
 
-Les informations sensibles sont stockées dans des fichiers `.env` et ne doivent pas être publiées sur GitHub.
+Les informations sensibles sont stockées dans des fichiers `.env`.
 
 Exemple :
 
@@ -491,64 +593,67 @@ JWT_SECRET=your_secret
 AI_SERVICE_URL=http://localhost:5000
 ```
 
-Les fichiers `.env` sont exclus du dépôt Git.
+Les fichiers `.env` ne doivent pas être commités dans Git.
 
 ---
 
 #  État actuel du projet
 
-### Fonctionnalités développées
+## Fonctionnalités développées
 
-* [x] Authentification utilisateur
-* [x] Authentification JWT
+* [x] Authentification
+* [x] JWT / Spring Security
 * [x] Gestion des rôles
+* [x] Gestion des employés
 * [x] Gestion des demandes de congé
 * [x] Workflow multi-niveaux
 * [x] Gestion des refus et justifications
-* [x] Dashboards par rôle
-* [x] Connexion à MongoDB
-* [x] Service Python/Flask
-* [x] Conteneurisation Docker
+* [x] Dashboards selon les rôles
+* [x] MongoDB
+* [x] Service Model / AI
+* [x] Gestion des activités
+* [x] Système de recommandation des activités
+* [x] Docker
 * [x] Docker Compose
 
-### Partie DevOps / Cloud
+## DevOps / Cloud
 
-* [x] Création du Resource Group Azure
-* [x] Création de l'Azure Container Registry (ACR)
+* [x] Azure Resource Group
+* [x] Azure Container Registry (ACR)
 * [x] Préparation du cluster Azure Kubernetes Service (AKS)
 * [x] Préparation des manifests Kubernetes
-* [ ] Déploiement complet de l'application sur AKS
-* [ ] Mise en place complète du pipeline CI/CD
-* [ ] Monitoring et observabilité
-
-> Les éléments marqués comme non réalisés correspondent aux prochaines étapes du projet.
+* [ ] Déploiement complet sur AKS
+* [ ] CI/CD
+* [ ] Monitoring
 
 ---
 
-# 🎓 Contexte du projet
+#  Contexte
 
-Ce projet a été réalisé dans le cadre d'un **stage d'ingénieur à la Société Tunisienne des Industries de Raffinage (STIR)**.
+Projet réalisé dans le cadre d'un **stage d'ingénieur à la Société Tunisienne des Industries de Raffinage (STIR)**.
 
-Il permet de mettre en pratique des compétences en :
+Le projet permet de mettre en pratique :
 
 * Développement Full Stack
-* Java / Spring Boot
 * React
+* Spring Boot
 * MongoDB
 * REST API
-* JWT / Spring Security
-* Python / Flask
-* Intelligence artificielle
+* Spring Security
+* JWT
+* Python
+* Machine Learning / NLP
+* Système de recommandation
 * Docker
 * Kubernetes
 * Microsoft Azure
-* AKS
-* ACR
-* Architecture Cloud
+* Azure AKS
+* Azure ACR
+* Architecture microservices
 
 ---
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Mohamed Dhia Romdhane**
 
